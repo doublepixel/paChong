@@ -1,0 +1,13 @@
+setup.py
+joke/__init__.py
+joke/items.py
+joke/middlewares.py
+joke/pipelines.py
+joke/settings.py
+joke/spiders/__init__.py
+joke/spiders/jk.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt

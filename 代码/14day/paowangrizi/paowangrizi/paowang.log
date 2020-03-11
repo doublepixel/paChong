@@ -1,0 +1,1168 @@
+2019-11-26 15:02:14 [scrapy.core.scraper] ERROR: Error processing {'author': '泡在网上的日子',
+ 'cnum': '0',
+ 'content': ' \n'
+            '\t\t\t\t\t \n'
+            '\t\t\t\t\t\t\n'
+            '\t\t\t\t\t\n'
+            '\t\t\t\t\t 谷歌似乎希望通过启动一个新的 bug 悬赏项目来提高 Play store 中 app '
+            '的质量。这次悬赏不同于之前的那个旧项目，旧项目主要主要针对查找网站和操作系统上的bug，而这次主要是希望黑客寻找排名最高的第三方app中的漏洞。黑客直接把漏洞提交给开发者，并和他们一起合作直到在\xa0'
+            'HackerOne '
+            '悬赏平台上提交一个报告才能领取奖金。谷歌承诺满足条件的每个issue兑换1000美元，但是黑客不能选择那些垃圾app来充数。目前，只有为\xa0'
+            'Dropbox, Duolingo, Line, Snapchat, Tinder, Alibaba, Mail.ru 和 '
+            'Headspace '
+            '这样的大型app找到漏洞才能得到奖金。谷歌计划在将来邀请更多的开发者参与进来，但是这些app开发者必须愿意修改已经找到的漏洞。这意味着你不能借此项目来为你喜欢的低质量app修复bug。来源：https://www.engadget.com/2017/10/20/google-bug-bounty-program-android-apps/\xa0\n'
+            '\t\t\t\t',
+ 'time': '17-10-23',
+ 'title': '谷歌将为找到顶级app漏洞的黑客提供悬赏',
+ 'vnum': '1707'}
+Traceback (most recent call last):
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/xiaoyuan/Desktop/1903/14day/paowangrizi/paowangrizi/pipelines.py", line 41, in process_item
+    self.cursor.execute(sql, item['title'], item['vnum'], item['cnum'], item['author'], item['time'],
+TypeError: execute() takes from 2 to 3 positional arguments but 8 were given
+2019-11-26 15:02:14 [scrapy.core.scraper] ERROR: Error processing {'author': '泡在网上的日子',
+ 'cnum': '1',
+ 'content': ' \n'
+            '\t\t\t\t\t \n'
+            '\t\t\t\t\t\t\n'
+            '\t\t\t\t\t\n'
+            '\t\t\t\t\t 当我们看到《Minecraft》出现在微软Xbox One '
+            'X的免费4K升级包阵容之中时，想必大家心里也有同样的问号.jpg。毕竟一款主打像素风格的有趣游戏，升级到更高画质到底会是个什么样的概念？但在这次E3 '
+            '2017微软另外像我们所提供的展示中，才发现，《Minecraft》比起其他游戏如《Gears of War 4》、《Forza '
+            'Horizon 3》、《Killer Instinct》与《Halo Wars 2》的4K画质升级，再配合Super Duper '
+            'Graphics付费升级包之后，真的可以用大跃进来形容啊！（毕竟，比较的基准有点低啊...XD）别的不说，光看看上面的比较图（应该分的出来哪边是4K '
+            '画质加强版吧？）... 这草跟这个水还有远景的进步幅度，虽然还是保有了一点像素风格的感觉，但这也差太多了吧！这有点像是开玩笑的4K '
+            '升级，其实在最近十分受微软关注，并确认将带来跨平台「Better '
+            'Together」更新的《Minecraft》上，感觉并不令人意外。图、《Minecraft》同场景的直接比较图（可以拉动中央的杆子来比较）。在须额外付费的Super '
+            'Duper Graphics pack的加持之下，Xbox One '
+            'X与具备4K规格的PC都将可玩到更精致风格版的《Minecraft》。单单从本篇的图来看，原本的草感觉根本像是一堆竹子，光影以及每块砖头上的细节都变得更细致，更别说那远方树影的高光效果还有雾气弥漫的感觉，都是以往所体验不到的。而透过付费升级的选项，消费者也可以自行考虑到底哪个才是自己想要的《Minecraft》世界。除了即将在今年降临的画质升级部分，《Minecraft》也将在本月带来社群市场的功能，将可让玩家买卖自己的世界、材质包或者是游戏Skin。必须说，《Minecraft》在微软的手上的确带来了很多惊喜，接下来就看各位在更新后展现更惊人的创造力啰。\n'
+            '\t\t\t\t',
+ 'time': '17-06-17',
+ 'title': '《Minecraft》的画素风格在上了4K 之后变得截然不同了...',
+ 'vnum': '3802'}
+Traceback (most recent call last):
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/xiaoyuan/Desktop/1903/14day/paowangrizi/paowangrizi/pipelines.py", line 41, in process_item
+    self.cursor.execute(sql, item['title'], item['vnum'], item['cnum'], item['author'], item['time'],
+TypeError: execute() takes from 2 to 3 positional arguments but 8 were given
+2019-11-26 15:02:14 [scrapy.core.scraper] ERROR: Error processing {'author': '泡在网上的日子',
+ 'cnum': '0',
+ 'content': ' \n'
+            '\t\t\t\t\t \n'
+            '\t\t\t\t\t\t\n'
+            '\t\t\t\t\t\n'
+            '\t\t\t\t\t '
+            '据外媒报道，美国国家安全局表示朝鲜是WannaCry恶意勒索软件攻击事件的幕后黑手。上个月席卷全球的WannaCry恶意勒索软件攻击事件至少让150个国家的企业、医院和政府机构中招。据《华盛顿邮报》报道，NSA认为名为WannaCry的恶意软件来自受朝鲜情报机关赞助的黑客团体。NSA对这份报告持有“中等信心(moderate '
+            'confidence)”。上个月赛门铁克和卡巴斯基实验室的一些网络安全研究人员表示，WannaCry和其他之前追溯到朝鲜的恶意软件的代码之间存在相似之处。当时研究人员表示，这些恶意软件和WannaCry及朝鲜只有一个“薄弱”联系，因为代码重叠的其他方式可能发生。据《华盛顿邮报》报道，NSA现在已将恶意软件追溯到与朝鲜情报机关有关的IP地址。综合来看，这些信息均指向朝鲜可能是这次攻击事件的幕后黑手。具体来说，由朝鲜运营的黑客组织Lazarus '
+            'Group似乎是需要为此负责。WannaCry勒索软件在将受害者电脑上的文件加密之后，要求受害者支付等价于300美元的比特币赎金，只有支付了赎金才能予以恢复。来自：cnBeta.COM\n'
+            '\t\t\t\t',
+ 'time': '17-06-17',
+ 'title': 'NSA 认为勒索软件 WannaCry 与朝鲜有关联',
+ 'vnum': '682'}
+Traceback (most recent call last):
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/xiaoyuan/Desktop/1903/14day/paowangrizi/paowangrizi/pipelines.py", line 41, in process_item
+    self.cursor.execute(sql, item['title'], item['vnum'], item['cnum'], item['author'], item['time'],
+TypeError: execute() takes from 2 to 3 positional arguments but 8 were given
+2019-11-26 15:02:14 [scrapy.core.scraper] ERROR: Error processing {'author': '泡在网上的日子',
+ 'cnum': '0',
+ 'content': ' \n'
+            '\t\t\t\t\t \n'
+            '\t\t\t\t\t\t\n'
+            '\t\t\t\t\t\n'
+            '\t\t\t\t\t 这个叫“Fuchsia”的智能手机操作系统，去年八月份首次出现在谷歌的 Git '
+            '代码库中。不过当时还只是一个命令行。现在这个神秘的项目有了一个全新的 UI，下面让我们看看它究竟长什么样。与 Android 和 '
+            'Chrome OS 不同，Fuchsia 不是基于 Linux 的 — 它使用了一个全新的、谷歌开发的微内核，叫做 '
+            '"Magenta"。使用 Fuchsia，谷歌不仅可以“抛弃”Linux 内核，还可以不使用 GPL 开源许可证：该系统使用\xa0'
+            'BSD 3 clause,\xa0MIT, 和\xa0Apache 2.0\xa0三者组合的开源许可证。抛弃 Linux '
+            '有点出乎意料，但 Android 生态系统似乎不希望跟上上游的 Linux 发行。因为我们看到 Google Pixel '
+            '的内核仍然停留在 2014 年年底首次发布的 Linux Kernel 3.18 上。谷歌的文档对\xa0Magenta '
+            '的描述是将其用于“具有快速处理器的现代手机和个人电脑、进行开放式计算的外设”。谷歌还没公布官方的说明，解释 Fuchsia '
+            '存在的理由和用处，留给我们的只是猜测。“现代手机”听起来像是最终可能与 Android '
+            '竞争的产品，但现在这个系统还“年轻”，一切都很难说。Fuchsia '
+            "已经有一些相关的项目，也有代码名称。该系统的界面和应用程序是用\xa0Google's Flutter SDK\xa0"
+            '编写的，这个项目可以提供跨平台的在 Android 和 iOS 上运行的代码。Flutter app 使用 Dart '
+            '语言编写。Flutter SDK 还有一个名为"Escher"的基于\xa0Vulkan '
+            '的图像渲染引擎，看起来这是定制的，用于运行谷歌的 shadow-heavy “Material Design” '
+            '接口指南。Fuchsia 系统 UI — Armadillo因此，我们暂时可以认为，Fuchsia 的界面是使用 Flutter '
+            'SDK 编写的，它是跨平台的。Armadillo 的官方标志，由 Google 的顶级艺术家之一创作。下面是将 Fuchsia '
+            '的系统 UI 编译成 Android APK 后，将其安装在 Android 设备上的图片。可以看到，新的 UI '
+            '包括一个重新设计的主屏幕，一个键盘，一个主页按钮和（一种）一个窗口管理器。前方漫长的路对于谷歌的任何新项目，大家很难知道项目将来的规模如何。这是一个“20%”的将在一年内被遗忘的项目还是一个比较重要的项目？幸运的是，我们有一个来自 '
+            'Fuchsia 开发者关于这个问题的直接声明。在公共的 Fuchsia IRC 频道中，Fuchsia 开发者 Travis '
+            'Geiselbrecht 提到这个操作系统不是“玩具”项目，不是一个 20% '
+            '的项目，也不是一个我们不关心其存亡的产品。现在看来，Android '
+            '具有两个最大的问题是：在第三方硬件生态系统中推出操作系统更新缺乏对 UI 流畅性的关注虽然还没看到该系统关于更新的计划，但它对 '
+            'Dart 语言的依赖意味着它将把重点放在高性能上。谷歌可以抛弃 Linux 和 GPL，它也可以抛弃 Java 和由\xa0'
+            'Oracle 导致的问题，而且谷歌基本上可以将其与所有的 Android 上游项目隔离开来，并将所有开发移至内部。如今在 '
+            'Android 这样的规模上做这样的事情将是一个巨大的项目。如果 Fuchsia 一切顺利，也许在 2020 '
+            '年左右可以看到相关的消费者产品。当然，这是谷歌，所以所有这一切可能会在某天就被取消。Fuchsia '
+            '的道路还很漫长。来源：arsTECHNICA转自：http://www.oschina.net/news/84594/google-fuchsia-smartphone-os-dumps-linux-has-a-wild-new-ui\xa0\n'
+            '\t\t\t\t',
+ 'time': '17-05-09',
+ 'title': '谷歌“Fuchsia”操作系统抛弃 Linux：具有崭新的 UI',
+ 'vnum': '1113'}
+Traceback (most recent call last):
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/xiaoyuan/Desktop/1903/14day/paowangrizi/paowangrizi/pipelines.py", line 41, in process_item
+    self.cursor.execute(sql, item['title'], item['vnum'], item['cnum'], item['author'], item['time'],
+TypeError: execute() takes from 2 to 3 positional arguments but 8 were given
+2019-11-26 15:02:14 [scrapy.core.scraper] ERROR: Error processing {'author': '泡在网上的日子',
+ 'cnum': '0',
+ 'content': ' \n'
+            '\t\t\t\t\t \n'
+            '\t\t\t\t\t\t\n'
+            '\t\t\t\t\t\n'
+            '\t\t\t\t\t \xa0 \xa0 \xa0 \xa0'
+            'Google宣布计划扩大与Udacity的合作伙伴关系，为寻求和追求程序开发职业生涯的开发人员提供75000笔Android奖学金。根据该计划，Google与Udacity已经进行为期两年的长期合作，分别在2015年和2016年为热情的新手编程者提供1000和10000笔奖学金。德国媒体巨头贝塔斯曼也将为此作出贡献。Google '
+            'EMEA总裁Matt '
+            'Brittin说：“我们这些课程有压倒性需求，所以我很高兴地宣布，与贝塔斯曼和Udacity一起，我们将为75000多人提供免费开发课程的机会。”通过这次运动Google希望能够弥补日益增长的数字技能差距，并减轻欧盟的担心。之前，欧盟表示，到2020年将有50万个信息和通信技术职位空缺。目前，前六万名奖学金已经开放申请，这些奖学金相关的课程将侧重于Android和Web开发。有关详细信息，请访问Udacity。不幸的是，似乎第一批申请者必须是欧洲，俄罗斯，埃及，以色列和土耳其的居民。其余15000个奖学金将由贝塔斯曼提供，并将为初学者和中等程度人士提供数学科学领域的课程。有关如何注册的更多信息将在未来几周内提供。来源cnbeta：http://www.cnbeta.com/articles/tech/648715.htm\xa0\n'
+            '\t\t\t\t',
+ 'time': '17-09-06',
+ 'title': 'Google和Udacity为75000名有抱负的开发人员提供奖学金',
+ 'vnum': '1201'}
+Traceback (most recent call last):
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/xiaoyuan/Desktop/1903/14day/paowangrizi/paowangrizi/pipelines.py", line 41, in process_item
+    self.cursor.execute(sql, item['title'], item['vnum'], item['cnum'], item['author'], item['time'],
+TypeError: execute() takes from 2 to 3 positional arguments but 8 were given
+2019-11-26 15:02:14 [scrapy.core.scraper] ERROR: Error processing {'author': '泡在网上的日子',
+ 'cnum': '1',
+ 'content': ' \n'
+            '\t\t\t\t\t \n'
+            '\t\t\t\t\t\t\n'
+            '\t\t\t\t\t\n'
+            '\t\t\t\t\t 大多数开发者对闪屏（splash '
+            'screen）都持不同的态度。一些人支持用闪屏隐藏app的加载，然后自然过渡到主界面，而另一些人认为闪屏不管是对用户还是开发者都是浪费时间。谷歌在这个问题上的立场也是不一的，以前不推荐使用闪屏的使用，但是后来在很多app上都有使用闪屏。到了Android '
+            'Oreo，谷歌希望让启动屏的制作更简单。谷歌发布了\xa0Android 8.0\xa0中的\xa0“splash screen '
+            'API”。这个API允许开发者轻松把一个drawable资源设置为闪屏。你也可以在app内部为笨重的Activity设置闪屏。在Android '
+            'Oreo之前，有许多方法添加一个闪屏，最常见的就是创建一个drawable，一个自定义主题，一个SplashActivity。谷歌想通过这个新的API让这个过程变得更简单。这个变化并没有在\xa0'
+            'Android Developers\xa0'
+            '网站的文档中。这个提交是在4月13日添加到AOSP中的，恰好在第一和第二个Android '
+            'O开发者预览版发布日期之间。因此要知道如何使用的话，你需要参考这个\xa0AOSP commit\xa0'
+            '以及之后的改动。我们期望官方文档最终能把这个API更新上去，那样就变得简单了。但是这并不是Android '
+            'Oreo针对开发者的唯一\xa0变化，谷歌还介绍了许多新的，有用的API和开发特性。要了解更多，还需要你自己去挖掘Android '
+            'Open Source Project。参考：Android Oreo Adds a Splash Screen API so '
+            'Developers can Easily Build App Loading Screens\xa0\n'
+            '\t\t\t\t',
+ 'time': '17-08-31',
+ 'title': 'Android O添加了一个 Splash Screen API帮助简化启动屏制作',
+ 'vnum': '8609'}
+Traceback (most recent call last):
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/xiaoyuan/Desktop/1903/14day/paowangrizi/paowangrizi/pipelines.py", line 41, in process_item
+    self.cursor.execute(sql, item['title'], item['vnum'], item['cnum'], item['author'], item['time'],
+TypeError: execute() takes from 2 to 3 positional arguments but 8 were given
+2019-11-26 15:02:14 [scrapy.core.scraper] ERROR: Error processing {'author': '泡在网上的日子',
+ 'cnum': '0',
+ 'content': ' \n'
+            '\t\t\t\t\t \n'
+            '\t\t\t\t\t\t\n'
+            '\t\t\t\t\t\n'
+            '\t\t\t\t\t '
+            '据悉，雅虎财经、搜索引擎、网络广告工具和网络服务等核心业务将与威瑞森通信拥有的美国在线（AOL）旗下约50家媒体和科技品牌组成一个新的数字媒体公司Oath，由美国在线前首席执行官阿姆斯壮统领。此外，雅虎未出售给威瑞森通信的剩余资产包括阿里巴巴15%股份，日本雅虎35%股份以及部分现金、可转换股份等更名为Altaba，雅虎董事会成员麦克纳尼出任总裁。无论如何，雅虎对世界互联网的贡献，仍值得被历史铭记。1995年创立的雅虎，仅仅走过22个年头就已经到了暮年。当地时间6月13日，美国大型通信企业威瑞森通信宣布，已完成对美国互联网巨头雅虎核心业务的收购，这意味着在互联网世界闪耀了22年的雅虎正式退出舞台。据悉，雅虎财经、搜索引擎、网络广告工具和网络服务等核心业务将与威瑞森通信拥有的美国在线（AOL）旗下约50家媒体和科技品牌组成一个新的数字媒体公司Oath，由美国在线前首席执行官阿姆斯壮统领。此外，雅虎未出售给威瑞森通信的剩余资产包括阿里巴巴15%股份，日本雅虎35%股份以及部分现金、可转换股份等更名为Altaba，雅虎董事会成员麦克纳尼出任总裁。值得注意的是，据海外媒体的最新消息，根据目前阿里巴巴的最新股价，Altaba的资产价值已经高达600多亿美元。曾经“雅虎的救世主”梅耶尔带着2300万美元离职虽然在官方的收购宣告中未提及裁员，但有消息表明，和很多收购案例一样，整合进Verizon的雅虎网络业务可能会宣布超过2000人规模的裁员，相当于整个部门现有全部员工人数的15%。不过所裁员工大多为重复性工作的劳动者，工程师将不受影响。据资料显示，雅虎成立于1995年，由斯坦福大学研究生杨致远和大卫 '
+            '费洛（David Filo）创立。梅耶尔是雅虎的第五任CEO，自从2001年前华纳兄弟执行长Terry '
+            'Semel以来，她的任期最长，持续了六年。雅虎在全盛时期价值超过1000亿美元，梅耶尔曾经被誉为雅虎的救世主，在那段时间里，公司慷慨地支付了她估值超1.62亿美元的薪资和股票奖励。然而，Verizon去年7月宣布将以48.3亿美元的价格收购雅虎核心互联网资产，但由于雅虎的两起黑客入侵事件新闻曝光后，这笔交易被推迟，最终收购价格降至44.8亿美元。即便如此，据雅虎提交的监管文件显示，离开雅虎的梅耶尔将获得2300万美元的离职金，包括300万美元的现金，以及价值2000万的股权。目前，她仍然是美国收入第四高的女性高管。随着收购的完成，2012年就任雅虎首席执行官的梅耶尔将辞职，她在雅虎的5年时间里并没能拯救这家公司。梅耶尔在Tumblr上发表了一篇帖子，标题为《怀旧、感恩和乐观》。她说，“回顾我在雅虎的时光，我们面对着看似不可逾越的商业挑战，同时伴随着许多惊喜和波折。”她说，“雅虎已经成功地通过那些障碍和山峰，不仅使雅虎公司变得更好，也使我们所有人更强大。”据悉，梅耶尔的离职将获得价值超过两亿美元的雅虎股票和期权，外加价值2300万美元的“金色降落伞”（即离职补偿金）。虽然梅耶尔曾经被誉为雅虎的救世主，但她留下的或许就是雅虎看似辉煌的股价表现。在梅耶尔的领导下，雅虎公司股价飙升254%，从15美元升至53.12美元，超过了纳斯达克科技股的112%的复合增长率。公平一点来看，在梅耶尔加入雅虎的时候，她的运气可没有那么好。原因是雅虎前两任首席执行官Terry '
+            'Semel和Carol '
+            'Bartz犯下的错误已经让雅虎举步维艰。不过，梅耶尔没有注重雅虎在移动端和社交媒体方面的发展。与此同时，雅虎还被大量数据泄漏的担忧困扰着。一面是谷歌和Facebook等主要竞争对手，另一面是Instagram和Snapchat等初创公司，雅虎的核心业务受到双重挤压。梅耶尔主掌雅虎期间，雅虎比较混乱，有些人认为她辜负了自她成功从谷歌离职之后媒体对她的各种褒扬。无论如何，雅虎对世界互联网的贡献，仍值得被历史铭记。雅虎于1995年3月2日正式成立，是以网上搜索起家，是最早的互联网先驱之一，市值一度超过1000亿美元。雅虎是最早将电话黄页的信息搬到网上的公司，而且雅虎提出了两个观点，对“用户的免费”及“广告作为流量的变现渠道”对互联网意义巨大。此外，雅虎22年的历史在相当程度上影响了硅谷，许多雅虎前员工创办并成功经营着自己的公司，包括企业内部沟通协作平台Slack、智能手机即时通讯软件WhatsApp和全球最大职业社交网站领英等。——————《怀旧、感恩和乐观》全文：今天早晨，雅虎与Verizon公司之间的并购交易正式结束。这是我发给雅虎公司所有员工的一封信，以此来回顾这家公司过去的五年和整个的发展历史。*************************************************************323天前，我们宣布Verizon公司将收购雅虎的运营业务。今天，我们可以宣布这项交易正式结束。截止到这一刻，我们确实走过了一段漫长的路。这标志着雅虎时代的结束，但也标志着新篇章的开始——对我们所有人来说，这都是一个情感不能抑制的时刻。考虑到所扮演角色的内在变化，我将选择离开公司。然而，我希望你们中的每一位都知道，我的内心依旧充满了怀旧、感激和乐观。在过去的5年时间里，能够成为这支团队中的一员，是我莫大的荣誉和荣幸。我们一起重建、改造、加强和现代化我们的产品、业务和公司。回顾我在雅虎度过的时光，我们曾面临着看似不可逾越的商业挑战，以及许多令人惊讶的曲折。我看到我们的团队跨越了这些障碍和高山。我们不仅使雅虎成为一个更好的公司，而且使所有人都因此变得更加强大。在过去的5年时间里，我们建立了让用户感到开心的产品，专注于针对客户的业务，也为我们的股东创造了巨大的价值，而且还努力让雅虎成为绝对最好的工作场所。我想花点时间提醒大家，我们共同取得的一些成就，它们都很了不起，我们都应该为此而感到自豪。对我们的用户，我们已经提升了自己产品的先进功能和吸引力，特别是在手机业务领域。我们成为了全球月用户量超过10亿的三家互联网公司中的一家。通过推出和改进移动设备产品，我们每月的手机用户增加量超过6.5亿（全球用户量最大的互联网公司之一）。我们极其关注自己的产品战略，并提供了150多个规模的产品和功能。我们在搜索领域投入了大量资金，为微软、谷歌和雅虎（Yahoo）提供了一定优势，为我们的用户提供了显著的搜索改进，并吸引了部分具有一定影响力的合作伙伴，比如Mozilla公司。我们从根本上改进了雅虎邮件，完全重写了大部分基础架构，并提供了一个更加灵活可靠的系统。同时，我们还创造了一个强大的移动服务平台，移动邮件在日常用户中的使用量超过了桌面系统邮件，这也显示了我们的产品和重新开发的平台所具有的力量。我们投资于自己的主页和关键垂直业务——新闻、体育、金融和生活方式——每项业务都是用户分类搜索的首选目的地。此外，这些业务还通过雅虎App、雅虎财经、雅虎体育和雅虎Fantasy内容，在移动领域找到了新的追随者。很难相信，直到2012年，我们还没有在iOS或Android系统上运行这4个现在才有的基础应用。当时，我们还没有开发本地应用程序，而且也没有在桌面系统之外使用这些非常受欢迎的品牌。今天，我们的用户每天花费在这些产品上的时间，相当于1400年。我们通过诸如SSL、HTML5、帐户密钥和HTTPS等跨企业之间的原创技术手段，加强了自己的安全防御能力。我们致力并投资于自己架构中的卓越技术，在过去5年时间里，减少了超过一半的用户影响事件。我们也因此在2013年和2014年赢得了2个苹果设计奖项，并与富士公司建立了统一的产品设计前沿中心。致我们的广告客户：我们完全重建了自己的广告业务，把客户的需求放在了首位。我们在增长最快的数字广告领域——移动、视频、本地化和社交媒体重建了雅虎的广告技术。按照Mavens '
+            'GAAP会计准则核算，去年我们在这一领域贡献了20多亿美元的营业收入（占雅虎公司年营业收入的42%），是2012年2亿美元收入的10倍还多。而在2011年，这一领域的收入还属于空白。去年，我们在移动业务方面的年收入（按照GAAP会计准则核算）为15亿美元，成为全球最大的移动广告平台之一。我们完全依靠白手起家开创了雅虎的原生和搜索广告业务，其每年的营业收入超过10亿美元。我们收购了BrightRoll和Flurry公司，以此在我们的战略增长领域——与视频和移动业务相一致的领域，创造大量新的现金收入流。我们极大地简化了广告产品套件，改进了拍卖和交流功能，并让广告格式能够更好地为广告商服务，同时也增强了产品的设计能力。致我们的所有股东：我们的股票价格已经达到了17年以来的最高点，自2012年7月以来，股价已经比当时的价格超过三倍还多。我们在公司市值和股东价值方面已经创造了45亿美元的价值。我们的市值从180亿美元上涨到了现在的530亿美元（估值增加了350亿美元），而我们也向股东返还了近10亿美元的现金收入。我们以每股28.64美元的平均价格回购了约27%的未发行股票。如此规模的回购，无论在数量、效率还是增长方面，几乎都是史无前例的。我们通过谈判，在IPO之后又额外保留了1.22亿份阿里巴巴公司的股份。如今，与IPO时的价格相比，这些股票溢价近90亿美元。通过授权和出售非核心专利和房地产资产，我们还获得了超过8亿美元的现金收入。我们用最高效的劳动力重建了雅虎，并在十多年的时间里运作着成本最低的公司管理结构。致所有员工：我们共同努力打造了雅虎最好的企业文化。通过FYI、公司目标、PB&J和Hackdays方式，我们提升了公司的透明度、问责制度和创新能力。我们扩大了员工福利，包括提供免费食品、延长产假和陪产假的福利，并通过提供智能手机的方式来鼓励员工使用雅虎产品。我们将员工的领导能力、多元性和包容性放在优先地位，并希望借此为雅虎带来良好的回报。我们战略性地重塑了技术和销售人才队伍，其中拥有了48%的技术人员和25%的销售人员。当回顾所有取得的成就时，我要真诚地感谢每一位雅虎员工。无论是过去还是现在，无论这份贡献是巨大还是微不足道。我对所有人的辛勤工作和所付出的大量牺牲深表感激。我们总是努力为我们的用户、广告商、股东和雅虎人做正确的事情。无论合作、创新，还是坚忍不拔的表现来说，你们都是我见过的，最令人印象深刻的团队。和你们一起工作，让我在担任首席执行官的时间里感到无上的荣幸。最后，我要感谢我们的创始人费罗和杰瑞。每个企业家最疯狂的梦想，就是想用他们的想法来改变世界，而你们正是这样的企业家。从第一天开始，你们的坚韧不拔和奇思妙想，就帮助我们创造了有史以来最为特殊的互联网公司之一——雅虎。这家公司雇佣了近17.5万名员工，收入超过770亿美元，并且已经通知、连接和娱乐了全球大部分的人类。你们用自己的才华、价值和激情激励了我们所有人。我将永远敬重你们，也将会永远做你们最忠实的粉丝。Yaho-o-oo！永远的雅虎！Marissa玛丽·梅耶尔来源：http://netsmell.com/post/yahoo-45b-acquired-by.html\xa0\n'
+            '\t\t\t\t',
+ 'time': '17-06-17',
+ 'title': '从千亿市值到45亿被收购 雅虎退出历史舞台',
+ 'vnum': '2626'}
+Traceback (most recent call last):
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/xiaoyuan/Desktop/1903/14day/paowangrizi/paowangrizi/pipelines.py", line 41, in process_item
+    self.cursor.execute(sql, item['title'], item['vnum'], item['cnum'], item['author'], item['time'],
+TypeError: execute() takes from 2 to 3 positional arguments but 8 were given
+2019-11-26 15:02:14 [scrapy.core.scraper] ERROR: Error processing {'author': '泡在网上的日子',
+ 'cnum': '0',
+ 'content': ' \n'
+            '\t\t\t\t\t \n'
+            '\t\t\t\t\t\t\n'
+            '\t\t\t\t\t\n'
+            '\t\t\t\t\t 在经历四个开发者预览版的数月测试之后，Google 于今天正式命名 Android 8.0 '
+            '操作系统更新为“Oreo”。通过 Android Beta 项目渠道，Google 于今天公布了 Oreo '
+            '的系统镜像，感兴趣的尝鲜者可前往下载。Google 同时也表示在“接下来数周时间”内为 Nexus 和 Pixel 设备推送 '
+            'Android 8.0 更新。那么其他手机厂商又如何跟进呢？Google 今天表示包括 '
+            'Essential、HTC、华为、京瓷（Kyocera）、摩托罗拉（Motorola）、HMD '
+            'Global（Nokia）、三星、夏普和索尼都将会在年底之前发布搭载该系统的新设备或者对支持设备进行升级。这里需要明确的是，声明中并未明确具体的上线日期，各家产品升级情况也存在差异，不排除在年底之前推出搭载 '
+            'Android 8.0 的新设备；而现有设备升级需要等到 2018 年的情况。目前掌握的信息来看，下一代 Pixel 设备将交由 '
+            'HTC 和 LG 代工，应该会在接下来的几周内公布。目前 HTC 已经确认最新发布的 U11 旗舰将会获得 Android '
+            '8.0，而其他厂商暂时还未公布具体的升级规划。来自：cnBeta.COM\n'
+            '\t\t\t\t',
+ 'time': '17-08-22',
+ 'title': 'Android 8.0 Oreo 正式亮相：各大厂商表示年底前跟进',
+ 'vnum': '3698'}
+Traceback (most recent call last):
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/xiaoyuan/Desktop/1903/14day/paowangrizi/paowangrizi/pipelines.py", line 41, in process_item
+    self.cursor.execute(sql, item['title'], item['vnum'], item['cnum'], item['author'], item['time'],
+TypeError: execute() takes from 2 to 3 positional arguments but 8 were given
+2019-11-26 15:02:14 [scrapy.core.scraper] ERROR: Error processing {'author': '泡在网上的日子',
+ 'cnum': '0',
+ 'content': ' \n'
+            '\t\t\t\t\t \n'
+            '\t\t\t\t\t\t\n'
+            '\t\t\t\t\t\n'
+            '\t\t\t\t\t Android 已经是世界上第一大移动设备操作系统，但对于很多 Android '
+            '手机用户来说，他们手上的“第一大”操作系统，却并不是最新版本的，用户在抱怨得不到更新，Android 的所有者 Google '
+            '当然也在发愁。（图自：Android）根据 Google 官方最新的统计显示，截止到今年 4 月，Google 在去年 10 月同 '
+            'Google Pixel 手机一同发布的 Android Nought 操作系统的安装率只有 7% 多一点，而其最新的版本 '
+            'Android 7.1 的安装率只有可怜的 0.5%。2015 年发布的 Android 6.0 和 2014 年发布的 '
+            'Android 5.0 则拥有 31.2% 和 32 % 的占有率。（Android N 已完结，Android O将上线 '
+            '图自：google）然而，Google 近日宣布对 Android N '
+            '预览版和公开版的更新已经全部结束，所有的重点都转向对下一代系统 Android O '
+            '的开发上来，以这样的更新速度和普及率来看，有些用户可能永远都用不上新系统。不过，这个从 Android '
+            '系统一出生就伴随它的顽疾，可能会在 Android O 和未来的系统更新中得到一定程度的改善。在宣布 Android '
+            '进入下一个大更新的同时，Google 也宣布了一个名为“Project\xa0Treble” 的系统更新机制。Google 想通过 '
+            '“Project Treble” 使 Android 系统模块化，从而缩短 OEM '
+            '厂商为设备更新系统所用的时间。很多人都知道，Android 系统更新速度慢，主要是由于 Google '
+            '对其开源的支持，这使得手机厂商可以根据自家的特色深度定制操作系统，对原生 Android '
+            '改动的越多，升级新系统就越困难。（Android O 开发者预览版中的彩蛋 '
+            '图自：9to5google）不过上述的内容，只是系统更新困难的其中一个原因，这里简单的梳理一下。当 Google 发布了一个新版 '
+            'Android 系统时，芯片制造商如 Qualcom、Mediatek 等则需要时间为新系统提供驱动程序；然后手机厂商如三星，LG '
+            '等就会开始针对自家的设备定制系统，这时候会对原生 Android '
+            '的源代码作出各种调整，面目全非也是有可能的；而有些设备是通过运营商渠道售出的，这时候手机制造商还要等待运营商的批准才可以对设备进行更新。这些都使得 '
+            'Android 手机需要等待很久才能收到系统更新，只有 Google 的亲儿子才能第一时间享受到最新的系统。（Google '
+            '的亲儿子 Google Pixel 和 Nexus 手机 图自：cdnforo）而 “Project Treble” 则可以解决 '
+            'Android 系统更新中最底层的问题，也就是芯片制造商对新系统的适配问题。Google '
+            '将从新系统开发的初期就和芯片制造商合作，把由芯片制造商用于控制底层程序的“Vendor '
+            'ImplementaTIon”接口和安卓整体框架分离，并确保芯片对系统的兼容性，而在以前，OEM '
+            '厂商需要自己去和芯片制造商沟通适配定制的系统。（那个是原生 '
+            'Android？图自：fonpit）这样一来，芯片对系统的兼容问题从一开始就解决了，OEM '
+            '厂商只需要对系统的其它部分进行定制就好。此外，Google 也正在与 OEM 厂商合作，将他们所做的任何代码更改直接添加到原始的 '
+            'Android 开源项目（AOSP）代码库中，这也意味着未来在系统更新时，OEM 厂商不需要再对代码做过多的更改，因为它们已经是 '
+            'Android 的一部分。但这是否也暗示着未来不同 OEM 厂商的定制系统将会更加接近原生的 Android？Android O '
+            '就要来了，Google 也宣布“Project Treble”系统更新机制已在 Android O 上实现，Android '
+            '系统碎片化问题或许在这一次能够真正得到改善。Google I/O 2017 将于北京时间 5 月 18 '
+            '日开幕，届时爱范儿（微信号：ifanr）也将亲临现场，为大家带来最新的报道。（题图来自：androidcommunity）文章来源：http://www.ifanr.com/835683\xa0\n'
+            '\t\t\t\t',
+ 'time': '17-05-15',
+ 'title': 'Google 推出新的 Android 系统更新方案，碎片化问题有救了？',
+ 'vnum': '1602'}
+Traceback (most recent call last):
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/xiaoyuan/Desktop/1903/14day/paowangrizi/paowangrizi/pipelines.py", line 41, in process_item
+    self.cursor.execute(sql, item['title'], item['vnum'], item['cnum'], item['author'], item['time'],
+TypeError: execute() takes from 2 to 3 positional arguments but 8 were given
+2019-11-26 15:02:14 [scrapy.core.scraper] ERROR: Error processing {'author': '泡在网上的日子',
+ 'cnum': '0',
+ 'content': ' \n'
+            '\t\t\t\t\t \n'
+            '\t\t\t\t\t\t\n'
+            '\t\t\t\t\t\n'
+            '\t\t\t\t\t '
+            '谷歌将于太平洋时间5月17日在加州山景城的海岸露天剧场举行为期三天的I/O大会。会议议程将在https://events.google.com/io/\xa0'
+            '上公布。与往次大会不同的是，Google这次新增I/O Live '
+            'Widget直播小部件，可以把小部件嵌入到你的个人网站/博客，让网站读者可以在5月17-19直接访问到I/O直播流。虽然这不是什么大事，但的确很贴心啊，以往在youtube上找半天才找到直播地址。届时泡网将会嵌入直播部件，你就可以直接在本站观看了。不过估计f '
+            'q '
+            '也是必须的吧。小部件地址：https://events.google.com/io/widget/?utm_source=google&utm_medium=social&utm_campaign=gplus\xa0'
+            '，有个人博客的同学也可以试试哦。\n'
+            '\t\t\t\t',
+ 'time': '17-05-10',
+ 'title': 'I/O大会2017即将到来，支持嵌入直播小部件',
+ 'vnum': '805'}
+Traceback (most recent call last):
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/xiaoyuan/Desktop/1903/14day/paowangrizi/paowangrizi/pipelines.py", line 41, in process_item
+    self.cursor.execute(sql, item['title'], item['vnum'], item['cnum'], item['author'], item['time'],
+TypeError: execute() takes from 2 to 3 positional arguments but 8 were given
+2019-11-26 15:02:14 [scrapy.core.scraper] ERROR: Error processing {'author': '泡在网上的日子',
+ 'cnum': '1',
+ 'content': ' \n'
+            '\t\t\t\t\t \n'
+            '\t\t\t\t\t\t\n'
+            '\t\t\t\t\t\n'
+            '\t\t\t\t\t 微软上周正式宣布Windows 10 S时，很多人都想知道Windows '
+            '10的这个版本是否真的是对消费者友好。 Windows 10 S绝对不是Windows RT，但是，Windows 10 '
+            'S用户将不得不使用微软Edge和Bing作为其默认的浏览器和搜索引擎，我们不太可能看到Google '
+            'Chrome或其他流行的桌面网络浏览器不久将来在Windows Store上发布。根据ZDNet的报告，Windows '
+            'Store的政策目前阻止开发人员使用微软Dekstop Bridge在Windows '
+            'Store上发布其桌面网络浏览器。更准确地说，微软只接受像微软Edge这样的第三方浏览器，它们是在沙盒环境中运行的真正的UWP应用程序。此外， '
+            '微软要求第三方浏览器使用和Edge相同的HTML和JavaScript引擎。微软发言人表示，浏览网页的Windows '
+            'Store应用程序必须使用Windows Platform提供的HTML和JavaScript引擎。所有的Windows '
+            'Store内容经过微软认证，有助于确保体验质量，让设备更安全。如果用户想从其他商店和服务访问应用程序，他们可以随时切换到Windows '
+            '10 '
+            'Pro。微软不是唯一在其应用商店中实施这些限制的公司，苹果iOS还需要第三方浏览器使用苹果自己的WebKit渲染引擎，而iOS用户不能将第三方浏览器设置为默认。 '
+            'Chromebook也限于Chrome浏览器和网络应用，但Google目前正在Chrome '
+            'OS上为Android应用（包括第三方网络浏览器）提供支持。Windows商店中缺少Chrome和Firefox将不会对Windows '
+            '10用户造成任何问题，但这可能会损害以教育为重点的Windows 10 S，这是微软对Chromebook的回答。 '
+            '微软Edge浏览器具有自己的一些杀手级功能，如数字墨迹和更高的电池效率，但由于拥有大量的浏览器扩展，Chrome和Firefox仍然拥有更强大的自定义功能。稿源：cnBeta.COM\n'
+            '\t\t\t\t',
+ 'time': '17-05-11',
+ 'title': 'Windows 商店封杀 Chrome 和 Firefox 等第三方浏览器',
+ 'vnum': '578'}
+Traceback (most recent call last):
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/xiaoyuan/Desktop/1903/14day/paowangrizi/paowangrizi/pipelines.py", line 41, in process_item
+    self.cursor.execute(sql, item['title'], item['vnum'], item['cnum'], item['author'], item['time'],
+TypeError: execute() takes from 2 to 3 positional arguments but 8 were given
+2019-11-26 15:02:14 [scrapy.core.scraper] ERROR: Error processing {'author': '泡在网上的日子',
+ 'cnum': '2',
+ 'content': ' \n'
+            '\t\t\t\t\t \n'
+            '\t\t\t\t\t\t\n'
+            '\t\t\t\t\t\n'
+            '\t\t\t\t\t '
+            '安卓最大的问题，不是系统本身，而是第三方app毫无节制的消耗系统资源。比如无休止的唤醒，各种不必要的通知等。而往往规模越大的公司，在这方面做得越差，这些应用往往属于必备应用，导致装完这些应用之后，几乎无法在保证流畅性的前提下继续安装其它应用了。为此绿色守护的作者发起了Android '
+            '绿色应用公约，虽然多半不会有什么立竿见影的效果，但从长远来看应该还是会给bat带来一些压力吧。目前已有知乎，酷安等大公司计划加入公约，希望以后能看到bat字号app的身影。公约如下：源地址：https://green-android.org/app-convention.html\xa0'
+            '宗旨这是一项旨在推动Android生态中的优秀应用共同维护一个更加良性的『设备体验』而发起的开放公约。设备体验：影响效应超出用户与应用进行显性交互的过程之外，在用户感知中属于设备整体性的体验因素的总称。包括设备的安全性、整体流畅性、耗电程度、发热程度等。由于Android系统的设备体验是由设备本身的软硬件及安装在设备中的众多应用所共同影响的，后者的影响往往随着安装的应用数量增长而迅速扩大。这种由应用所造成的外溢性影响，存在着典型的『公地悲剧』。安装的众多应用中，某一个应用对于设备体验的损害往往很难被用户直接辨识，以至设备体验问题长期得不到应用开发团队的足够重视。造成的后果间接的由全部应用，乃至整个Android生态共同承担。因此，除了加强用户对于设备体验损害的辨识能力外，有必要推动整个Android开发社区以更高的标准优化各自应用的设备体验影响，共同维护一个良性的Android生态。开放编撰此公约的内容修订和扩充面向整个Android开发社区，采取开放接纳、充分讨论、积极修订的原则。如果对规约有任何的疑问（包括实施中的困难）和建议，请通过此公约的GitHub '
+            'issue tracker提交。核心原则此公约的核心原则完全遵照Android本身的演进方向（包括Android '
+            'O所引入的新变化），积极引导和协助应用开发团队平滑完成对接Android最新变化的节奏，在确保应用核心功能不受影响的前提下，减少不必要的应用后台行为，并以更加高效、节能的调度机制改善后台行为的调度。涉及到功能与设备体验之间的潜在冲突时，遵循最终选择权给予用户的原则。规约必要部分Target '
+            'SDK Version >= 24 (Android 7.0)原因：Project Svelte在Android '
+            '7中得到了一些关键的的强化，有助于降低应用后台行为对设备体验的影响。不在运行时强制请求『读取手机状态和身份（READ_PHONE_STATE）』权限。原因：IMEI泄露是目前用户隐私和手机安全中的一个突出问题。它具有相当的隐蔽性，在Android '
+            '6.0之后的运行期权限体系中依然未能获得足够清晰的信息披露。由于Android系统仅仅将其显示为『读取手机状态和身份』，使得大部分用户在应用请求此项权限时虽然困惑，但仍未意识到授予这个权限背后存在的安全隐患。若应用中的某些功能（如通话相关的特性）依赖此权限（须具备逻辑上的合理性），则只能在对应功能交互中请求此权限。即便用户拒绝授予权限，不依赖此权限的功能仍须保持可用。除用户的主动交互触发外，避免启动其它应用未处于运行中的进程。\xa0'
+            '原因：用户在主动交互中通常对交互的响应时间（例如从触摸到界面变化）存在一定的宽容度，而被动交互（例如启动过程的等待、媒体播放中）中出现的延迟或卡顿更易引发用户的反感。此间如果涉及到启动多个进程，除进程创建本身的显著开销和内存压力之外，如果启动的是其它应用的进程（即通常所说的『交叉唤醒』），对方的初始化开销则是一个完全不可控的因素。而交叉唤醒在应用之间往往具有连锁效应，在安装有较多关联应用（例如集成了相同SDK的多个应用）的情况下极易触发『链式唤醒』，引发CPU、内存、IO等资源短时间内的巨大压力，造成设备流畅性的急剧下降、耗电上升，带来严重的应用启动阶段用户体验和全局设备体验的双重损害。使用请求唤醒CPU的周期性Alarm、JobScheduler的周期最小不低于30分钟，建议不低于1小时。避免在不必要的时间段（如夜间）继续调度周期性事件原因：周期性唤醒CPU会打断设备的深度睡眠状态，造成设备待机时长的明显缩短。按照Google在Project '
+            'Volta中的粗略测算，设备每1秒钟的活跃工作会让待机时间损失大约2分钟。大部分应用的后台周期性任务往往以网络访问为主，通常会持续数秒至数十秒（甚至超过1分钟）。如果此类周期性后台活动调度过于频繁，对待机时间的影响是极其显著的。Android从4.4开始，不断在迭代中优化周期任务的后台调度，但所有这些努力都只能在长周期任务中产生明显的效果。倘若有一个应用请求过于频密的周期任务，则整个系统的待机时长就会因为短木桶效应而受制，为用户提供可达成『后台纯净 '
+            '(Background-free)』目标的选项。（不必默认开启）原因：后台持续运行的服务，是一系列设备体验问题的温床，如长连接基带持续工作增加的耗电、低内存时服务循环重启引起的设备迟缓、间歇性CPU和IO资源占用造成的卡顿…… '
+            '后台纯净是Android O对应用后台约束的一项重大原则性变化，它倡导的是『如非必要，勿启后台』的新原则。后台纯净 '
+            '(Background-free)：指符合面向Android '
+            'O的应用开发要求中关于后台运行的约束。其核心要求是应用进入后台短时间内（至多3分钟，并在屏幕关闭前）停止所有后台服务，且在除了收到广播和执行来自通知的PendingIntent之外的其它条件（如JobScheduler）触发的后台行为期间不可以再启动新的后台服务。对于存在内容更新、数据同步或弱实时性通知的应用场景，建议在『后台纯净』模式下以周期性轮询替代推送。（参见前述的最低周期约束）对于Android '
+            '5.0及以上版本的系统，不在AndroidManifest.xml中静态注册以下广播：（从Android '
+            'O开始，以下全部广播均已不再支持静态注册）如需兼容旧版本Android系统，可在AndroidManifest.xml中声明所需的广播接收器，并使用版本区分的资源常量确保在Android '
+            '5.0及以上系统中禁用上述静态广播接收器。如下所示：AndroidManifext.xmlandroid.net.conn.CONNECTIVITY_CHANGE\xa0'
+            '（Android '
+            '7已不再支持静态注册，替代方案参见官方开发文档）android.hardware.action.NEW_PICTURE\xa0'
+            '（同上）android.hardware.action.NEW_VIDEO\xa0'
+            '（同上）android.net.wifi.SCAN_RESULTS\xa0（极少使用，建议以 LocationManager '
+            '替代）android.intent.action.USER_PRESENT\xa0'
+            '（避免使用）android.intent.action.ACTION_POWER_CONNECTED\xa0（建议采用 '
+            'JobScheduler '
+            '替代）android.intent.action.ACTION_POWER_DISCONNECTED\xa0（建议采用 '
+            'JobScheduler 替代）android.intent.action.MEDIA_…\xa0'
+            '（避免使用）如需兼容旧版本Android系统，可在AndroidManifest.xml中声明所需的广播接收器，并使用版本区分的资源常量确保在Android '
+            '5.0及以上系统中禁用上述静态广播接收器。如下所示：AndroidManifext.xml<receiver\xa0...\xa0'
+            'android:enabled="@bool/until_api_21">/src/main/res/values/flags.xml<resources>\n'
+            '\xa0\xa0<bool\xa0name="until_api_21">true</bool>\n'
+            '</resources>/src/main/res/values-v21/flags.xml<resources>\n'
+            '\xa0\xa0<bool\xa0name="until_api_21">false</bool>\n'
+            '</resources>建议部分在Android 4.4以上设备中，避免使用『读取 / '
+            '写入外部存储』权限。Android设备现已普遍采用虚拟分区，内、外部存储实际上共享的是相同的物理存储位置和配额，因此不必担心存储空间内部比外部存储更容易耗尽。如果确有需要将应用的数据（或缓存）写入外部存储，则需分应用私有数据和用户个人资料（如图片、文档）两种情形分别应对。对于用户个人资料，典型的场景如用户主动发起的『保存图片』和『打开文档』这两类交互，应首选使用Android '
+            '4.4以上版本引入的存储访问机制（Storage Access '
+            'Framework），可实现用简单的API无缝对接各种本地存储介质（如TF卡、USB '
+            'OTG外置存储、NAS）及第三方云存储服务（如Dropbox、Google '
+            'Drive等），为用户提供非常灵活的存取选择。如果应用需要兼容4.4以下的Android版本，建议以如下版本限定的方式声明外部存储权限，并在旧版本系统上直接读写外部存储，兼顾Android '
+            '4.4前后版本的权限约束。<uses-permission '
+            'android:name="android.permission.WRITE_EXTERNAL_STORAGE" '
+            'android:maxSdkVersion="18" '
+            '/>对于应用私有数据，通常不建议写入外部存储，因为外部存储可被其它应用访问，存在泄漏风险。这意味着通常还需要对涉及用户隐私的数据额外加密保存。如果确有特殊原因需要将数据写入外部存储，Context.getExternalFilesDir()、\xa0'
+            'Context.getExternalCacheDir()\xa0等相关API所返回的路径从Android '
+            '4.4开始可供应用直接存取，无需任何权限。如果应用仍需兼容Android '
+            '4.4以下的系统版本，请使用前述版本限定的方式声明外部存储的读写权限。原因：外部存储通常是用户私人照片、视频的保存位置，涉及用户的敏感隐私。除文件管理类工具，应尽可能避免使用此权限。上架Google '
+            'Play应用市场Google Play应用市场（以下简称Google '
+            'Play）是Android生态中全球最大的应用分发渠道，在除中国大陆地区外发售的绝大部分Android手机中是预装的唯一应用市场。由于众所周知的因素，Google '
+            'Play在国内的Android应用分发渠道中并未获得主导地位，但这并不妨碍应用开发者应将应用上架Google '
+            'Play的重要性。将应用上架Google Play可获得如下优势：Google '
+            'Play在国内仍然具有相当数量的高端受众（粗略估算在数十万级别），他们的绝对基数虽然不算高，但在Google '
+            'Play的评论分量和影响力却很显著。Google '
+            'Play相对严格的监管相当于为应用的口碑在高端用户群体中提供了有效的背书。及早在Google '
+            'Play中抢占竞争优势，因为在Google Play上积累口碑和评价远比国内的应用市场严格和困难。Google '
+            'Play虽然目前尚未正式进入中国大陆市场，但这一可能性正在快速上升。当别的开发团队尚未觉察到这一点之前，只需投入少量的精力（增加一个分发渠道）即可换取一个潜在的高回报。Google '
+            'Play提出的要求、提供的工具和服务，可以让开发团队及早完成与国际标准的对接，降低未来国际化的门槛和阻力。\n'
+            '\t\t\t\t',
+ 'time': '17-05-15',
+ 'title': '绿色守护作者发起Android 绿色应用公约',
+ 'vnum': '1727'}
+Traceback (most recent call last):
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/xiaoyuan/Desktop/1903/14day/paowangrizi/paowangrizi/pipelines.py", line 41, in process_item
+    self.cursor.execute(sql, item['title'], item['vnum'], item['cnum'], item['author'], item['time'],
+TypeError: execute() takes from 2 to 3 positional arguments but 8 were given
+2019-11-26 15:02:15 [scrapy.core.scraper] ERROR: Error processing {'author': '泡在网上的日子',
+ 'cnum': '3',
+ 'content': ' \n'
+            '\t\t\t\t\t \n'
+            '\t\t\t\t\t\t\n'
+            '\t\t\t\t\t\n'
+            '\t\t\t\t\t 由于一些特殊的原因，在国内的用户无法享受到谷歌安卓系统提供的 GMS '
+            '消息推送服务，不少国产安卓软件接收消息依靠后台服务存在，也由此出现了用户反映的耗电以及占用内存问题，不过未来这一问题有望得到全面解决。据工信部旗下泰尔终端实验室发布消息称，各个终端厂商的系统级推送通道不可避免的存在差异性，因此，开发者同时接入、维护多条推送通道存在着一定的困难。在此背景下，泰尔终端实验室联合包括华为、OPPO、vivo、小米、三星、魅族、金立、努比亚、谷歌、百度、阿里巴巴、腾讯、个推、极光等国外内主要相关企业共同制定安卓统一推送服务（Unified '
+            'Push '
+            'Service，简称UPS）技术标准，旨在为国内的消息推送服务建立统一的标准，为终端用户提供更好的手机使用体验，为应用开发者更好解决消息推送需求，并取得了阶段性成果。具体来说：未来将由终端厂商提供系统级推送服务（类似APNS的唯一推送通道），确保 '
+            'App 的推送消息接收；相应的不再允许各 App '
+            '在后台保留常连接，降低终端能耗、提升用户体验。与此同时，各终端厂商实现推送通道接口和功能统一，方便开发者接入。另外，第三方推送服务商原则上也遵循统一推送的标准，保证服务一致性，降低开发者学习成本。目前 '
+            'Android '
+            '的各种自定义推送消息的泛滥也对手机通知栏的展示造成了影响，破坏了界面的统一性。统一推送的标准后，对于消息推送会增强管理。例如，通过推送消息的相互拉起明确不被允许，利用透传消息拉起App的行为也被禁止。同时，为了保证用户体验，原则上也不支持推送消息的定制化（包括消息样式的定制化以及提示音的个性化，通知栏图标不允许使用外链），保证消息推送的公平性和用户界面的一致性。为了帮助开发者提高推送的准确性，统一推送标准在推送通道中定义了批量推动消息的信息反馈机制，在消息过期后将每次推送的最终情况（展示、拒绝或其他类型错误）返回给开发者，帮助开发者不断根据反馈信息提升消息推送的准确度。同时，对于滥用推送消息也将进行限制，对于用户点击率很低或用户消息屏蔽较多的App，可能采取包括限制推送条数、拉入黑名单等惩罚性措施。引导开发者注重用户体验，实现净化安卓生态的目标。统一推送对于开发者的一个福音是，由于推送 '
+            'API 的统一，未来各终端厂商将提供系统级 API '
+            '实现推送功能（即App无需嵌入各通道SDK）。考虑到实际情况，为了兼容已有机型，手机端还是会提供一个简单的SDK，判断手机是否支持统一推送。若支持则可以直接调用 '
+            'ROM API '
+            '，否则按照当前已有方式进行推送（为了适配已有机型还需要保留推送SDK）。随着手机的自然更替，未来支持统一推送的终端数目会不断更加，从而逐步实现统一推送的平滑演进。稿源：中国通信标准化协会、IT之家\n'
+            '\t\t\t\t',
+ 'time': '17-06-05',
+ 'title': '工信部放大招：将统一 Android 消息推送标准',
+ 'vnum': '4501'}
+Traceback (most recent call last):
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/xiaoyuan/Desktop/1903/14day/paowangrizi/paowangrizi/pipelines.py", line 41, in process_item
+    self.cursor.execute(sql, item['title'], item['vnum'], item['cnum'], item['author'], item['time'],
+TypeError: execute() takes from 2 to 3 positional arguments but 8 were given
+2019-11-26 15:02:15 [scrapy.core.scraper] ERROR: Error processing {'author': '泡在网上的日子',
+ 'cnum': '2',
+ 'content': ' \n'
+            '\t\t\t\t\t \n'
+            '\t\t\t\t\t\t\n'
+            '\t\t\t\t\t\n'
+            '\t\t\t\t\t 在经过几个月的爆料和玩味之后，Android之父Andy '
+            'Rubin终于揭晓了新公司的首款智能手机Essential Phone，Essential '
+            'Phone有着顶级的配置和先进的工艺设计，毫无妥协。Essential '
+            'Phone采用了顶部和左右两侧超窄边框的全面屏设计，由钛材和陶瓷制成，机身框架由钛材打造，转到背后则是一整块陶瓷盖板，中间偏上的位置有一个圆型的指纹辨识圈。该公司表示将压倒一众使用铝合金手机设备，更耐用。Essential '
+            'Phone有着安卓手机顶级的硬件配置，搭载高通骁龙835处理器，4GB内存，128GB内置存储，5.71英寸2560 x 1312 '
+            'QHD分辨率屏幕，屏幕比例为19:10，电池容量3040mAh。有趣的是，该手机背部有两个孔，用来附加必要的配件。最令人兴奋的是，现在支持360度相机镜头配件，可以拍摄球形UHD '
+            '(3840x1920) 的图像，帧率为30Fps/秒。还配置充电Dock，从摇篮式充电到正常的悬空充电。Essential '
+            'Phone后置双1200万像素摄像头，其中一个摄像头专用于单色成像，可以单独用于黑白照片， '
+            '或结合颜色传感器，以改善细节和微光性能。同时前置800万像素摄像头，可拍摄4K视频。Essential据称将预装安卓7.1.1系统，系统截图显示非常干净，IT之家了解到该系统没有任何臃肿的软件，该手机设计用来连接家庭中的智能家居设备，担当用户助理的角色。根据外媒报道，Essential '
+            'Phone设备移除了传统的3.5mm耳机接口，也配备了USB-C转换器，支持蓝牙5.0的耳机连接。该手机拥有四种颜色，分别是月亮黑、星灰色、纯净白和海洋深色，售价699美元（约合人民币4789元），360度相机拍照套装版售价749美元（约合人民币5132元），今天起开启预订，但官网还未公布具体发货日期。来源 '
+            'it之家\xa0http://mt.sohu.com/20170530/n495020791.shtml\n'
+            '\t\t\t\t',
+ 'time': '17-05-31',
+ 'title': 'Android之父发布Essential智能手机',
+ 'vnum': '2643'}
+Traceback (most recent call last):
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/xiaoyuan/Desktop/1903/14day/paowangrizi/paowangrizi/pipelines.py", line 41, in process_item
+    self.cursor.execute(sql, item['title'], item['vnum'], item['cnum'], item['author'], item['time'],
+TypeError: execute() takes from 2 to 3 positional arguments but 8 were given
+2019-11-26 15:02:15 [scrapy.core.scraper] ERROR: Error processing {'author': '泡在网上的日子',
+ 'cnum': '0',
+ 'content': ' \n'
+            '\t\t\t\t\t \n'
+            '\t\t\t\t\t\t\n'
+            '\t\t\t\t\t\n'
+            '\t\t\t\t\t 著名计算机科学家、Java 之父 James Gosling\xa0宣布加盟亚马逊 AWS '
+            '服务，成为云计算巨头的杰出工程师。James Gosling 也在其 Facebook 主页上确认了这一消息。亚马逊证实 '
+            'Gosling 已加入了公司，但没有对他将要做的工作提出任何进一步的说明。尽管目前尚不清楚他将要开展的工作，但对于创建 AWS '
+            '的物联网工具团队来说，Gosling 似乎非常适合。他非常熟悉部署 IoT 系统的过程，以及解决在使用公共云与 IoT '
+            '时出现的挑战。James Gosling 在任职于 Sun Microsystems 期间开发的 Java '
+            '编程语言是计算机历史上最广泛使用的编程语言之一，他在甲骨文收购 Sun 后辞职，短暂加盟了搜索巨人 '
+            'Google，随后担任了海洋机器人公司 Liquid Robotics 的首席软件架构师，开发自主驾驶的无人船 Wave '
+            'Glider。Gosling '
+            '曾批评过云服务锁定，称像亚马逊这样的云服务供应商劝说你将应用带到云端，但当你开始使用云服务，你就被锁定在一个特定的云端服务。文章转载自 '
+            '开源中国社区\xa0'
+            '[http://www.oschina.net]本文地址：https://www.oschina.net/news/85108/aws-signs-java-father-james-gosling\n'
+            '\t\t\t\t',
+ 'time': '17-05-23',
+ 'title': 'Java 之父 James Gosling 宣布加入亚马逊 AWS',
+ 'vnum': '2101'}
+Traceback (most recent call last):
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/xiaoyuan/Desktop/1903/14day/paowangrizi/paowangrizi/pipelines.py", line 41, in process_item
+    self.cursor.execute(sql, item['title'], item['vnum'], item['cnum'], item['author'], item['time'],
+TypeError: execute() takes from 2 to 3 positional arguments but 8 were given
+2019-11-26 15:02:41 [scrapy.core.scraper] ERROR: Error processing {'author': '泡在网上的日子',
+ 'cnum': '1',
+ 'content': ' \n'
+            '\t\t\t\t\t \n'
+            '\t\t\t\t\t\t\n'
+            '\t\t\t\t\t\n'
+            '\t\t\t\t\t 当我们看到《Minecraft》出现在微软Xbox One '
+            'X的免费4K升级包阵容之中时，想必大家心里也有同样的问号.jpg。毕竟一款主打像素风格的有趣游戏，升级到更高画质到底会是个什么样的概念？但在这次E3 '
+            '2017微软另外像我们所提供的展示中，才发现，《Minecraft》比起其他游戏如《Gears of War 4》、《Forza '
+            'Horizon 3》、《Killer Instinct》与《Halo Wars 2》的4K画质升级，再配合Super Duper '
+            'Graphics付费升级包之后，真的可以用大跃进来形容啊！（毕竟，比较的基准有点低啊...XD）别的不说，光看看上面的比较图（应该分的出来哪边是4K '
+            '画质加强版吧？）... 这草跟这个水还有远景的进步幅度，虽然还是保有了一点像素风格的感觉，但这也差太多了吧！这有点像是开玩笑的4K '
+            '升级，其实在最近十分受微软关注，并确认将带来跨平台「Better '
+            'Together」更新的《Minecraft》上，感觉并不令人意外。图、《Minecraft》同场景的直接比较图（可以拉动中央的杆子来比较）。在须额外付费的Super '
+            'Duper Graphics pack的加持之下，Xbox One '
+            'X与具备4K规格的PC都将可玩到更精致风格版的《Minecraft》。单单从本篇的图来看，原本的草感觉根本像是一堆竹子，光影以及每块砖头上的细节都变得更细致，更别说那远方树影的高光效果还有雾气弥漫的感觉，都是以往所体验不到的。而透过付费升级的选项，消费者也可以自行考虑到底哪个才是自己想要的《Minecraft》世界。除了即将在今年降临的画质升级部分，《Minecraft》也将在本月带来社群市场的功能，将可让玩家买卖自己的世界、材质包或者是游戏Skin。必须说，《Minecraft》在微软的手上的确带来了很多惊喜，接下来就看各位在更新后展现更惊人的创造力啰。\n'
+            '\t\t\t\t',
+ 'time': '17-06-17',
+ 'title': '《Minecraft》的画素风格在上了4K 之后变得截然不同了...',
+ 'vnum': '3802'}
+Traceback (most recent call last):
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/xiaoyuan/Desktop/1903/14day/paowangrizi/paowangrizi/pipelines.py", line 41, in process_item
+    self.cursor.execute(sql, [item['title'], item['vnum'], item['cnum'], item['author'], item['time'],
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1364, "Field 'id' doesn't have a default value")
+2019-11-26 15:02:41 [scrapy.core.scraper] ERROR: Error processing {'author': '泡在网上的日子',
+ 'cnum': '0',
+ 'content': ' \n'
+            '\t\t\t\t\t \n'
+            '\t\t\t\t\t\t\n'
+            '\t\t\t\t\t\n'
+            '\t\t\t\t\t \xa0 \xa0 \xa0 \xa0'
+            'Google宣布计划扩大与Udacity的合作伙伴关系，为寻求和追求程序开发职业生涯的开发人员提供75000笔Android奖学金。根据该计划，Google与Udacity已经进行为期两年的长期合作，分别在2015年和2016年为热情的新手编程者提供1000和10000笔奖学金。德国媒体巨头贝塔斯曼也将为此作出贡献。Google '
+            'EMEA总裁Matt '
+            'Brittin说：“我们这些课程有压倒性需求，所以我很高兴地宣布，与贝塔斯曼和Udacity一起，我们将为75000多人提供免费开发课程的机会。”通过这次运动Google希望能够弥补日益增长的数字技能差距，并减轻欧盟的担心。之前，欧盟表示，到2020年将有50万个信息和通信技术职位空缺。目前，前六万名奖学金已经开放申请，这些奖学金相关的课程将侧重于Android和Web开发。有关详细信息，请访问Udacity。不幸的是，似乎第一批申请者必须是欧洲，俄罗斯，埃及，以色列和土耳其的居民。其余15000个奖学金将由贝塔斯曼提供，并将为初学者和中等程度人士提供数学科学领域的课程。有关如何注册的更多信息将在未来几周内提供。来源cnbeta：http://www.cnbeta.com/articles/tech/648715.htm\xa0\n'
+            '\t\t\t\t',
+ 'time': '17-09-06',
+ 'title': 'Google和Udacity为75000名有抱负的开发人员提供奖学金',
+ 'vnum': '1201'}
+Traceback (most recent call last):
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/xiaoyuan/Desktop/1903/14day/paowangrizi/paowangrizi/pipelines.py", line 41, in process_item
+    self.cursor.execute(sql, [item['title'], item['vnum'], item['cnum'], item['author'], item['time'],
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1364, "Field 'id' doesn't have a default value")
+2019-11-26 15:02:41 [scrapy.core.scraper] ERROR: Error processing {'author': '泡在网上的日子',
+ 'cnum': '0',
+ 'content': ' \n'
+            '\t\t\t\t\t \n'
+            '\t\t\t\t\t\t\n'
+            '\t\t\t\t\t\n'
+            '\t\t\t\t\t 谷歌似乎希望通过启动一个新的 bug 悬赏项目来提高 Play store 中 app '
+            '的质量。这次悬赏不同于之前的那个旧项目，旧项目主要主要针对查找网站和操作系统上的bug，而这次主要是希望黑客寻找排名最高的第三方app中的漏洞。黑客直接把漏洞提交给开发者，并和他们一起合作直到在\xa0'
+            'HackerOne '
+            '悬赏平台上提交一个报告才能领取奖金。谷歌承诺满足条件的每个issue兑换1000美元，但是黑客不能选择那些垃圾app来充数。目前，只有为\xa0'
+            'Dropbox, Duolingo, Line, Snapchat, Tinder, Alibaba, Mail.ru 和 '
+            'Headspace '
+            '这样的大型app找到漏洞才能得到奖金。谷歌计划在将来邀请更多的开发者参与进来，但是这些app开发者必须愿意修改已经找到的漏洞。这意味着你不能借此项目来为你喜欢的低质量app修复bug。来源：https://www.engadget.com/2017/10/20/google-bug-bounty-program-android-apps/\xa0\n'
+            '\t\t\t\t',
+ 'time': '17-10-23',
+ 'title': '谷歌将为找到顶级app漏洞的黑客提供悬赏',
+ 'vnum': '1707'}
+Traceback (most recent call last):
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/xiaoyuan/Desktop/1903/14day/paowangrizi/paowangrizi/pipelines.py", line 41, in process_item
+    self.cursor.execute(sql, [item['title'], item['vnum'], item['cnum'], item['author'], item['time'],
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1364, "Field 'id' doesn't have a default value")
+2019-11-26 15:02:41 [scrapy.core.scraper] ERROR: Error processing {'author': '泡在网上的日子',
+ 'cnum': '1',
+ 'content': ' \n'
+            '\t\t\t\t\t \n'
+            '\t\t\t\t\t\t\n'
+            '\t\t\t\t\t\n'
+            '\t\t\t\t\t 微软上周正式宣布Windows 10 S时，很多人都想知道Windows '
+            '10的这个版本是否真的是对消费者友好。 Windows 10 S绝对不是Windows RT，但是，Windows 10 '
+            'S用户将不得不使用微软Edge和Bing作为其默认的浏览器和搜索引擎，我们不太可能看到Google '
+            'Chrome或其他流行的桌面网络浏览器不久将来在Windows Store上发布。根据ZDNet的报告，Windows '
+            'Store的政策目前阻止开发人员使用微软Dekstop Bridge在Windows '
+            'Store上发布其桌面网络浏览器。更准确地说，微软只接受像微软Edge这样的第三方浏览器，它们是在沙盒环境中运行的真正的UWP应用程序。此外， '
+            '微软要求第三方浏览器使用和Edge相同的HTML和JavaScript引擎。微软发言人表示，浏览网页的Windows '
+            'Store应用程序必须使用Windows Platform提供的HTML和JavaScript引擎。所有的Windows '
+            'Store内容经过微软认证，有助于确保体验质量，让设备更安全。如果用户想从其他商店和服务访问应用程序，他们可以随时切换到Windows '
+            '10 '
+            'Pro。微软不是唯一在其应用商店中实施这些限制的公司，苹果iOS还需要第三方浏览器使用苹果自己的WebKit渲染引擎，而iOS用户不能将第三方浏览器设置为默认。 '
+            'Chromebook也限于Chrome浏览器和网络应用，但Google目前正在Chrome '
+            'OS上为Android应用（包括第三方网络浏览器）提供支持。Windows商店中缺少Chrome和Firefox将不会对Windows '
+            '10用户造成任何问题，但这可能会损害以教育为重点的Windows 10 S，这是微软对Chromebook的回答。 '
+            '微软Edge浏览器具有自己的一些杀手级功能，如数字墨迹和更高的电池效率，但由于拥有大量的浏览器扩展，Chrome和Firefox仍然拥有更强大的自定义功能。稿源：cnBeta.COM\n'
+            '\t\t\t\t',
+ 'time': '17-05-11',
+ 'title': 'Windows 商店封杀 Chrome 和 Firefox 等第三方浏览器',
+ 'vnum': '578'}
+Traceback (most recent call last):
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/xiaoyuan/Desktop/1903/14day/paowangrizi/paowangrizi/pipelines.py", line 41, in process_item
+    self.cursor.execute(sql, [item['title'], item['vnum'], item['cnum'], item['author'], item['time'],
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1364, "Field 'id' doesn't have a default value")
+2019-11-26 15:02:41 [scrapy.core.scraper] ERROR: Error processing {'author': '泡在网上的日子',
+ 'cnum': '0',
+ 'content': ' \n'
+            '\t\t\t\t\t \n'
+            '\t\t\t\t\t\t\n'
+            '\t\t\t\t\t\n'
+            '\t\t\t\t\t 这个叫“Fuchsia”的智能手机操作系统，去年八月份首次出现在谷歌的 Git '
+            '代码库中。不过当时还只是一个命令行。现在这个神秘的项目有了一个全新的 UI，下面让我们看看它究竟长什么样。与 Android 和 '
+            'Chrome OS 不同，Fuchsia 不是基于 Linux 的 — 它使用了一个全新的、谷歌开发的微内核，叫做 '
+            '"Magenta"。使用 Fuchsia，谷歌不仅可以“抛弃”Linux 内核，还可以不使用 GPL 开源许可证：该系统使用\xa0'
+            'BSD 3 clause,\xa0MIT, 和\xa0Apache 2.0\xa0三者组合的开源许可证。抛弃 Linux '
+            '有点出乎意料，但 Android 生态系统似乎不希望跟上上游的 Linux 发行。因为我们看到 Google Pixel '
+            '的内核仍然停留在 2014 年年底首次发布的 Linux Kernel 3.18 上。谷歌的文档对\xa0Magenta '
+            '的描述是将其用于“具有快速处理器的现代手机和个人电脑、进行开放式计算的外设”。谷歌还没公布官方的说明，解释 Fuchsia '
+            '存在的理由和用处，留给我们的只是猜测。“现代手机”听起来像是最终可能与 Android '
+            '竞争的产品，但现在这个系统还“年轻”，一切都很难说。Fuchsia '
+            "已经有一些相关的项目，也有代码名称。该系统的界面和应用程序是用\xa0Google's Flutter SDK\xa0"
+            '编写的，这个项目可以提供跨平台的在 Android 和 iOS 上运行的代码。Flutter app 使用 Dart '
+            '语言编写。Flutter SDK 还有一个名为"Escher"的基于\xa0Vulkan '
+            '的图像渲染引擎，看起来这是定制的，用于运行谷歌的 shadow-heavy “Material Design” '
+            '接口指南。Fuchsia 系统 UI — Armadillo因此，我们暂时可以认为，Fuchsia 的界面是使用 Flutter '
+            'SDK 编写的，它是跨平台的。Armadillo 的官方标志，由 Google 的顶级艺术家之一创作。下面是将 Fuchsia '
+            '的系统 UI 编译成 Android APK 后，将其安装在 Android 设备上的图片。可以看到，新的 UI '
+            '包括一个重新设计的主屏幕，一个键盘，一个主页按钮和（一种）一个窗口管理器。前方漫长的路对于谷歌的任何新项目，大家很难知道项目将来的规模如何。这是一个“20%”的将在一年内被遗忘的项目还是一个比较重要的项目？幸运的是，我们有一个来自 '
+            'Fuchsia 开发者关于这个问题的直接声明。在公共的 Fuchsia IRC 频道中，Fuchsia 开发者 Travis '
+            'Geiselbrecht 提到这个操作系统不是“玩具”项目，不是一个 20% '
+            '的项目，也不是一个我们不关心其存亡的产品。现在看来，Android '
+            '具有两个最大的问题是：在第三方硬件生态系统中推出操作系统更新缺乏对 UI 流畅性的关注虽然还没看到该系统关于更新的计划，但它对 '
+            'Dart 语言的依赖意味着它将把重点放在高性能上。谷歌可以抛弃 Linux 和 GPL，它也可以抛弃 Java 和由\xa0'
+            'Oracle 导致的问题，而且谷歌基本上可以将其与所有的 Android 上游项目隔离开来，并将所有开发移至内部。如今在 '
+            'Android 这样的规模上做这样的事情将是一个巨大的项目。如果 Fuchsia 一切顺利，也许在 2020 '
+            '年左右可以看到相关的消费者产品。当然，这是谷歌，所以所有这一切可能会在某天就被取消。Fuchsia '
+            '的道路还很漫长。来源：arsTECHNICA转自：http://www.oschina.net/news/84594/google-fuchsia-smartphone-os-dumps-linux-has-a-wild-new-ui\xa0\n'
+            '\t\t\t\t',
+ 'time': '17-05-09',
+ 'title': '谷歌“Fuchsia”操作系统抛弃 Linux：具有崭新的 UI',
+ 'vnum': '1113'}
+Traceback (most recent call last):
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/xiaoyuan/Desktop/1903/14day/paowangrizi/paowangrizi/pipelines.py", line 41, in process_item
+    self.cursor.execute(sql, [item['title'], item['vnum'], item['cnum'], item['author'], item['time'],
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1364, "Field 'id' doesn't have a default value")
+2019-11-26 15:02:41 [scrapy.core.scraper] ERROR: Error processing {'author': '泡在网上的日子',
+ 'cnum': '1',
+ 'content': ' \n'
+            '\t\t\t\t\t \n'
+            '\t\t\t\t\t\t\n'
+            '\t\t\t\t\t\n'
+            '\t\t\t\t\t 大多数开发者对闪屏（splash '
+            'screen）都持不同的态度。一些人支持用闪屏隐藏app的加载，然后自然过渡到主界面，而另一些人认为闪屏不管是对用户还是开发者都是浪费时间。谷歌在这个问题上的立场也是不一的，以前不推荐使用闪屏的使用，但是后来在很多app上都有使用闪屏。到了Android '
+            'Oreo，谷歌希望让启动屏的制作更简单。谷歌发布了\xa0Android 8.0\xa0中的\xa0“splash screen '
+            'API”。这个API允许开发者轻松把一个drawable资源设置为闪屏。你也可以在app内部为笨重的Activity设置闪屏。在Android '
+            'Oreo之前，有许多方法添加一个闪屏，最常见的就是创建一个drawable，一个自定义主题，一个SplashActivity。谷歌想通过这个新的API让这个过程变得更简单。这个变化并没有在\xa0'
+            'Android Developers\xa0'
+            '网站的文档中。这个提交是在4月13日添加到AOSP中的，恰好在第一和第二个Android '
+            'O开发者预览版发布日期之间。因此要知道如何使用的话，你需要参考这个\xa0AOSP commit\xa0'
+            '以及之后的改动。我们期望官方文档最终能把这个API更新上去，那样就变得简单了。但是这并不是Android '
+            'Oreo针对开发者的唯一\xa0变化，谷歌还介绍了许多新的，有用的API和开发特性。要了解更多，还需要你自己去挖掘Android '
+            'Open Source Project。参考：Android Oreo Adds a Splash Screen API so '
+            'Developers can Easily Build App Loading Screens\xa0\n'
+            '\t\t\t\t',
+ 'time': '17-08-31',
+ 'title': 'Android O添加了一个 Splash Screen API帮助简化启动屏制作',
+ 'vnum': '8609'}
+Traceback (most recent call last):
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/xiaoyuan/Desktop/1903/14day/paowangrizi/paowangrizi/pipelines.py", line 41, in process_item
+    self.cursor.execute(sql, [item['title'], item['vnum'], item['cnum'], item['author'], item['time'],
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1364, "Field 'id' doesn't have a default value")
+2019-11-26 15:02:41 [scrapy.core.scraper] ERROR: Error processing {'author': '泡在网上的日子',
+ 'cnum': '0',
+ 'content': ' \n'
+            '\t\t\t\t\t \n'
+            '\t\t\t\t\t\t\n'
+            '\t\t\t\t\t\n'
+            '\t\t\t\t\t '
+            '谷歌将于太平洋时间5月17日在加州山景城的海岸露天剧场举行为期三天的I/O大会。会议议程将在https://events.google.com/io/\xa0'
+            '上公布。与往次大会不同的是，Google这次新增I/O Live '
+            'Widget直播小部件，可以把小部件嵌入到你的个人网站/博客，让网站读者可以在5月17-19直接访问到I/O直播流。虽然这不是什么大事，但的确很贴心啊，以往在youtube上找半天才找到直播地址。届时泡网将会嵌入直播部件，你就可以直接在本站观看了。不过估计f '
+            'q '
+            '也是必须的吧。小部件地址：https://events.google.com/io/widget/?utm_source=google&utm_medium=social&utm_campaign=gplus\xa0'
+            '，有个人博客的同学也可以试试哦。\n'
+            '\t\t\t\t',
+ 'time': '17-05-10',
+ 'title': 'I/O大会2017即将到来，支持嵌入直播小部件',
+ 'vnum': '805'}
+Traceback (most recent call last):
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/xiaoyuan/Desktop/1903/14day/paowangrizi/paowangrizi/pipelines.py", line 41, in process_item
+    self.cursor.execute(sql, [item['title'], item['vnum'], item['cnum'], item['author'], item['time'],
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1364, "Field 'id' doesn't have a default value")
+2019-11-26 15:02:41 [scrapy.core.scraper] ERROR: Error processing {'author': '泡在网上的日子',
+ 'cnum': '0',
+ 'content': ' \n'
+            '\t\t\t\t\t \n'
+            '\t\t\t\t\t\t\n'
+            '\t\t\t\t\t\n'
+            '\t\t\t\t\t 在经历四个开发者预览版的数月测试之后，Google 于今天正式命名 Android 8.0 '
+            '操作系统更新为“Oreo”。通过 Android Beta 项目渠道，Google 于今天公布了 Oreo '
+            '的系统镜像，感兴趣的尝鲜者可前往下载。Google 同时也表示在“接下来数周时间”内为 Nexus 和 Pixel 设备推送 '
+            'Android 8.0 更新。那么其他手机厂商又如何跟进呢？Google 今天表示包括 '
+            'Essential、HTC、华为、京瓷（Kyocera）、摩托罗拉（Motorola）、HMD '
+            'Global（Nokia）、三星、夏普和索尼都将会在年底之前发布搭载该系统的新设备或者对支持设备进行升级。这里需要明确的是，声明中并未明确具体的上线日期，各家产品升级情况也存在差异，不排除在年底之前推出搭载 '
+            'Android 8.0 的新设备；而现有设备升级需要等到 2018 年的情况。目前掌握的信息来看，下一代 Pixel 设备将交由 '
+            'HTC 和 LG 代工，应该会在接下来的几周内公布。目前 HTC 已经确认最新发布的 U11 旗舰将会获得 Android '
+            '8.0，而其他厂商暂时还未公布具体的升级规划。来自：cnBeta.COM\n'
+            '\t\t\t\t',
+ 'time': '17-08-22',
+ 'title': 'Android 8.0 Oreo 正式亮相：各大厂商表示年底前跟进',
+ 'vnum': '3698'}
+Traceback (most recent call last):
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/xiaoyuan/Desktop/1903/14day/paowangrizi/paowangrizi/pipelines.py", line 41, in process_item
+    self.cursor.execute(sql, [item['title'], item['vnum'], item['cnum'], item['author'], item['time'],
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1364, "Field 'id' doesn't have a default value")
+2019-11-26 15:02:41 [scrapy.core.scraper] ERROR: Error processing {'author': '泡在网上的日子',
+ 'cnum': '3',
+ 'content': ' \n'
+            '\t\t\t\t\t \n'
+            '\t\t\t\t\t\t\n'
+            '\t\t\t\t\t\n'
+            '\t\t\t\t\t 由于一些特殊的原因，在国内的用户无法享受到谷歌安卓系统提供的 GMS '
+            '消息推送服务，不少国产安卓软件接收消息依靠后台服务存在，也由此出现了用户反映的耗电以及占用内存问题，不过未来这一问题有望得到全面解决。据工信部旗下泰尔终端实验室发布消息称，各个终端厂商的系统级推送通道不可避免的存在差异性，因此，开发者同时接入、维护多条推送通道存在着一定的困难。在此背景下，泰尔终端实验室联合包括华为、OPPO、vivo、小米、三星、魅族、金立、努比亚、谷歌、百度、阿里巴巴、腾讯、个推、极光等国外内主要相关企业共同制定安卓统一推送服务（Unified '
+            'Push '
+            'Service，简称UPS）技术标准，旨在为国内的消息推送服务建立统一的标准，为终端用户提供更好的手机使用体验，为应用开发者更好解决消息推送需求，并取得了阶段性成果。具体来说：未来将由终端厂商提供系统级推送服务（类似APNS的唯一推送通道），确保 '
+            'App 的推送消息接收；相应的不再允许各 App '
+            '在后台保留常连接，降低终端能耗、提升用户体验。与此同时，各终端厂商实现推送通道接口和功能统一，方便开发者接入。另外，第三方推送服务商原则上也遵循统一推送的标准，保证服务一致性，降低开发者学习成本。目前 '
+            'Android '
+            '的各种自定义推送消息的泛滥也对手机通知栏的展示造成了影响，破坏了界面的统一性。统一推送的标准后，对于消息推送会增强管理。例如，通过推送消息的相互拉起明确不被允许，利用透传消息拉起App的行为也被禁止。同时，为了保证用户体验，原则上也不支持推送消息的定制化（包括消息样式的定制化以及提示音的个性化，通知栏图标不允许使用外链），保证消息推送的公平性和用户界面的一致性。为了帮助开发者提高推送的准确性，统一推送标准在推送通道中定义了批量推动消息的信息反馈机制，在消息过期后将每次推送的最终情况（展示、拒绝或其他类型错误）返回给开发者，帮助开发者不断根据反馈信息提升消息推送的准确度。同时，对于滥用推送消息也将进行限制，对于用户点击率很低或用户消息屏蔽较多的App，可能采取包括限制推送条数、拉入黑名单等惩罚性措施。引导开发者注重用户体验，实现净化安卓生态的目标。统一推送对于开发者的一个福音是，由于推送 '
+            'API 的统一，未来各终端厂商将提供系统级 API '
+            '实现推送功能（即App无需嵌入各通道SDK）。考虑到实际情况，为了兼容已有机型，手机端还是会提供一个简单的SDK，判断手机是否支持统一推送。若支持则可以直接调用 '
+            'ROM API '
+            '，否则按照当前已有方式进行推送（为了适配已有机型还需要保留推送SDK）。随着手机的自然更替，未来支持统一推送的终端数目会不断更加，从而逐步实现统一推送的平滑演进。稿源：中国通信标准化协会、IT之家\n'
+            '\t\t\t\t',
+ 'time': '17-06-05',
+ 'title': '工信部放大招：将统一 Android 消息推送标准',
+ 'vnum': '4501'}
+Traceback (most recent call last):
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/xiaoyuan/Desktop/1903/14day/paowangrizi/paowangrizi/pipelines.py", line 41, in process_item
+    self.cursor.execute(sql, [item['title'], item['vnum'], item['cnum'], item['author'], item['time'],
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1364, "Field 'id' doesn't have a default value")
+2019-11-26 15:02:41 [scrapy.core.scraper] ERROR: Error processing {'author': '泡在网上的日子',
+ 'cnum': '0',
+ 'content': ' \n'
+            '\t\t\t\t\t \n'
+            '\t\t\t\t\t\t\n'
+            '\t\t\t\t\t\n'
+            '\t\t\t\t\t 著名计算机科学家、Java 之父 James Gosling\xa0宣布加盟亚马逊 AWS '
+            '服务，成为云计算巨头的杰出工程师。James Gosling 也在其 Facebook 主页上确认了这一消息。亚马逊证实 '
+            'Gosling 已加入了公司，但没有对他将要做的工作提出任何进一步的说明。尽管目前尚不清楚他将要开展的工作，但对于创建 AWS '
+            '的物联网工具团队来说，Gosling 似乎非常适合。他非常熟悉部署 IoT 系统的过程，以及解决在使用公共云与 IoT '
+            '时出现的挑战。James Gosling 在任职于 Sun Microsystems 期间开发的 Java '
+            '编程语言是计算机历史上最广泛使用的编程语言之一，他在甲骨文收购 Sun 后辞职，短暂加盟了搜索巨人 '
+            'Google，随后担任了海洋机器人公司 Liquid Robotics 的首席软件架构师，开发自主驾驶的无人船 Wave '
+            'Glider。Gosling '
+            '曾批评过云服务锁定，称像亚马逊这样的云服务供应商劝说你将应用带到云端，但当你开始使用云服务，你就被锁定在一个特定的云端服务。文章转载自 '
+            '开源中国社区\xa0'
+            '[http://www.oschina.net]本文地址：https://www.oschina.net/news/85108/aws-signs-java-father-james-gosling\n'
+            '\t\t\t\t',
+ 'time': '17-05-23',
+ 'title': 'Java 之父 James Gosling 宣布加入亚马逊 AWS',
+ 'vnum': '2101'}
+Traceback (most recent call last):
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/xiaoyuan/Desktop/1903/14day/paowangrizi/paowangrizi/pipelines.py", line 41, in process_item
+    self.cursor.execute(sql, [item['title'], item['vnum'], item['cnum'], item['author'], item['time'],
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1364, "Field 'id' doesn't have a default value")
+2019-11-26 15:02:41 [scrapy.core.scraper] ERROR: Error processing {'author': '泡在网上的日子',
+ 'cnum': '0',
+ 'content': ' \n'
+            '\t\t\t\t\t \n'
+            '\t\t\t\t\t\t\n'
+            '\t\t\t\t\t\n'
+            '\t\t\t\t\t '
+            '据外媒报道，美国国家安全局表示朝鲜是WannaCry恶意勒索软件攻击事件的幕后黑手。上个月席卷全球的WannaCry恶意勒索软件攻击事件至少让150个国家的企业、医院和政府机构中招。据《华盛顿邮报》报道，NSA认为名为WannaCry的恶意软件来自受朝鲜情报机关赞助的黑客团体。NSA对这份报告持有“中等信心(moderate '
+            'confidence)”。上个月赛门铁克和卡巴斯基实验室的一些网络安全研究人员表示，WannaCry和其他之前追溯到朝鲜的恶意软件的代码之间存在相似之处。当时研究人员表示，这些恶意软件和WannaCry及朝鲜只有一个“薄弱”联系，因为代码重叠的其他方式可能发生。据《华盛顿邮报》报道，NSA现在已将恶意软件追溯到与朝鲜情报机关有关的IP地址。综合来看，这些信息均指向朝鲜可能是这次攻击事件的幕后黑手。具体来说，由朝鲜运营的黑客组织Lazarus '
+            'Group似乎是需要为此负责。WannaCry勒索软件在将受害者电脑上的文件加密之后，要求受害者支付等价于300美元的比特币赎金，只有支付了赎金才能予以恢复。来自：cnBeta.COM\n'
+            '\t\t\t\t',
+ 'time': '17-06-17',
+ 'title': 'NSA 认为勒索软件 WannaCry 与朝鲜有关联',
+ 'vnum': '682'}
+Traceback (most recent call last):
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/xiaoyuan/Desktop/1903/14day/paowangrizi/paowangrizi/pipelines.py", line 41, in process_item
+    self.cursor.execute(sql, [item['title'], item['vnum'], item['cnum'], item['author'], item['time'],
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1364, "Field 'id' doesn't have a default value")
+2019-11-26 15:02:41 [scrapy.core.scraper] ERROR: Error processing {'author': '泡在网上的日子',
+ 'cnum': '2',
+ 'content': ' \n'
+            '\t\t\t\t\t \n'
+            '\t\t\t\t\t\t\n'
+            '\t\t\t\t\t\n'
+            '\t\t\t\t\t 在经过几个月的爆料和玩味之后，Android之父Andy '
+            'Rubin终于揭晓了新公司的首款智能手机Essential Phone，Essential '
+            'Phone有着顶级的配置和先进的工艺设计，毫无妥协。Essential '
+            'Phone采用了顶部和左右两侧超窄边框的全面屏设计，由钛材和陶瓷制成，机身框架由钛材打造，转到背后则是一整块陶瓷盖板，中间偏上的位置有一个圆型的指纹辨识圈。该公司表示将压倒一众使用铝合金手机设备，更耐用。Essential '
+            'Phone有着安卓手机顶级的硬件配置，搭载高通骁龙835处理器，4GB内存，128GB内置存储，5.71英寸2560 x 1312 '
+            'QHD分辨率屏幕，屏幕比例为19:10，电池容量3040mAh。有趣的是，该手机背部有两个孔，用来附加必要的配件。最令人兴奋的是，现在支持360度相机镜头配件，可以拍摄球形UHD '
+            '(3840x1920) 的图像，帧率为30Fps/秒。还配置充电Dock，从摇篮式充电到正常的悬空充电。Essential '
+            'Phone后置双1200万像素摄像头，其中一个摄像头专用于单色成像，可以单独用于黑白照片， '
+            '或结合颜色传感器，以改善细节和微光性能。同时前置800万像素摄像头，可拍摄4K视频。Essential据称将预装安卓7.1.1系统，系统截图显示非常干净，IT之家了解到该系统没有任何臃肿的软件，该手机设计用来连接家庭中的智能家居设备，担当用户助理的角色。根据外媒报道，Essential '
+            'Phone设备移除了传统的3.5mm耳机接口，也配备了USB-C转换器，支持蓝牙5.0的耳机连接。该手机拥有四种颜色，分别是月亮黑、星灰色、纯净白和海洋深色，售价699美元（约合人民币4789元），360度相机拍照套装版售价749美元（约合人民币5132元），今天起开启预订，但官网还未公布具体发货日期。来源 '
+            'it之家\xa0http://mt.sohu.com/20170530/n495020791.shtml\n'
+            '\t\t\t\t',
+ 'time': '17-05-31',
+ 'title': 'Android之父发布Essential智能手机',
+ 'vnum': '2643'}
+Traceback (most recent call last):
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/xiaoyuan/Desktop/1903/14day/paowangrizi/paowangrizi/pipelines.py", line 41, in process_item
+    self.cursor.execute(sql, [item['title'], item['vnum'], item['cnum'], item['author'], item['time'],
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1364, "Field 'id' doesn't have a default value")
+2019-11-26 15:02:41 [scrapy.core.scraper] ERROR: Error processing {'author': '泡在网上的日子',
+ 'cnum': '2',
+ 'content': ' \n'
+            '\t\t\t\t\t \n'
+            '\t\t\t\t\t\t\n'
+            '\t\t\t\t\t\n'
+            '\t\t\t\t\t '
+            '安卓最大的问题，不是系统本身，而是第三方app毫无节制的消耗系统资源。比如无休止的唤醒，各种不必要的通知等。而往往规模越大的公司，在这方面做得越差，这些应用往往属于必备应用，导致装完这些应用之后，几乎无法在保证流畅性的前提下继续安装其它应用了。为此绿色守护的作者发起了Android '
+            '绿色应用公约，虽然多半不会有什么立竿见影的效果，但从长远来看应该还是会给bat带来一些压力吧。目前已有知乎，酷安等大公司计划加入公约，希望以后能看到bat字号app的身影。公约如下：源地址：https://green-android.org/app-convention.html\xa0'
+            '宗旨这是一项旨在推动Android生态中的优秀应用共同维护一个更加良性的『设备体验』而发起的开放公约。设备体验：影响效应超出用户与应用进行显性交互的过程之外，在用户感知中属于设备整体性的体验因素的总称。包括设备的安全性、整体流畅性、耗电程度、发热程度等。由于Android系统的设备体验是由设备本身的软硬件及安装在设备中的众多应用所共同影响的，后者的影响往往随着安装的应用数量增长而迅速扩大。这种由应用所造成的外溢性影响，存在着典型的『公地悲剧』。安装的众多应用中，某一个应用对于设备体验的损害往往很难被用户直接辨识，以至设备体验问题长期得不到应用开发团队的足够重视。造成的后果间接的由全部应用，乃至整个Android生态共同承担。因此，除了加强用户对于设备体验损害的辨识能力外，有必要推动整个Android开发社区以更高的标准优化各自应用的设备体验影响，共同维护一个良性的Android生态。开放编撰此公约的内容修订和扩充面向整个Android开发社区，采取开放接纳、充分讨论、积极修订的原则。如果对规约有任何的疑问（包括实施中的困难）和建议，请通过此公约的GitHub '
+            'issue tracker提交。核心原则此公约的核心原则完全遵照Android本身的演进方向（包括Android '
+            'O所引入的新变化），积极引导和协助应用开发团队平滑完成对接Android最新变化的节奏，在确保应用核心功能不受影响的前提下，减少不必要的应用后台行为，并以更加高效、节能的调度机制改善后台行为的调度。涉及到功能与设备体验之间的潜在冲突时，遵循最终选择权给予用户的原则。规约必要部分Target '
+            'SDK Version >= 24 (Android 7.0)原因：Project Svelte在Android '
+            '7中得到了一些关键的的强化，有助于降低应用后台行为对设备体验的影响。不在运行时强制请求『读取手机状态和身份（READ_PHONE_STATE）』权限。原因：IMEI泄露是目前用户隐私和手机安全中的一个突出问题。它具有相当的隐蔽性，在Android '
+            '6.0之后的运行期权限体系中依然未能获得足够清晰的信息披露。由于Android系统仅仅将其显示为『读取手机状态和身份』，使得大部分用户在应用请求此项权限时虽然困惑，但仍未意识到授予这个权限背后存在的安全隐患。若应用中的某些功能（如通话相关的特性）依赖此权限（须具备逻辑上的合理性），则只能在对应功能交互中请求此权限。即便用户拒绝授予权限，不依赖此权限的功能仍须保持可用。除用户的主动交互触发外，避免启动其它应用未处于运行中的进程。\xa0'
+            '原因：用户在主动交互中通常对交互的响应时间（例如从触摸到界面变化）存在一定的宽容度，而被动交互（例如启动过程的等待、媒体播放中）中出现的延迟或卡顿更易引发用户的反感。此间如果涉及到启动多个进程，除进程创建本身的显著开销和内存压力之外，如果启动的是其它应用的进程（即通常所说的『交叉唤醒』），对方的初始化开销则是一个完全不可控的因素。而交叉唤醒在应用之间往往具有连锁效应，在安装有较多关联应用（例如集成了相同SDK的多个应用）的情况下极易触发『链式唤醒』，引发CPU、内存、IO等资源短时间内的巨大压力，造成设备流畅性的急剧下降、耗电上升，带来严重的应用启动阶段用户体验和全局设备体验的双重损害。使用请求唤醒CPU的周期性Alarm、JobScheduler的周期最小不低于30分钟，建议不低于1小时。避免在不必要的时间段（如夜间）继续调度周期性事件原因：周期性唤醒CPU会打断设备的深度睡眠状态，造成设备待机时长的明显缩短。按照Google在Project '
+            'Volta中的粗略测算，设备每1秒钟的活跃工作会让待机时间损失大约2分钟。大部分应用的后台周期性任务往往以网络访问为主，通常会持续数秒至数十秒（甚至超过1分钟）。如果此类周期性后台活动调度过于频繁，对待机时间的影响是极其显著的。Android从4.4开始，不断在迭代中优化周期任务的后台调度，但所有这些努力都只能在长周期任务中产生明显的效果。倘若有一个应用请求过于频密的周期任务，则整个系统的待机时长就会因为短木桶效应而受制，为用户提供可达成『后台纯净 '
+            '(Background-free)』目标的选项。（不必默认开启）原因：后台持续运行的服务，是一系列设备体验问题的温床，如长连接基带持续工作增加的耗电、低内存时服务循环重启引起的设备迟缓、间歇性CPU和IO资源占用造成的卡顿…… '
+            '后台纯净是Android O对应用后台约束的一项重大原则性变化，它倡导的是『如非必要，勿启后台』的新原则。后台纯净 '
+            '(Background-free)：指符合面向Android '
+            'O的应用开发要求中关于后台运行的约束。其核心要求是应用进入后台短时间内（至多3分钟，并在屏幕关闭前）停止所有后台服务，且在除了收到广播和执行来自通知的PendingIntent之外的其它条件（如JobScheduler）触发的后台行为期间不可以再启动新的后台服务。对于存在内容更新、数据同步或弱实时性通知的应用场景，建议在『后台纯净』模式下以周期性轮询替代推送。（参见前述的最低周期约束）对于Android '
+            '5.0及以上版本的系统，不在AndroidManifest.xml中静态注册以下广播：（从Android '
+            'O开始，以下全部广播均已不再支持静态注册）如需兼容旧版本Android系统，可在AndroidManifest.xml中声明所需的广播接收器，并使用版本区分的资源常量确保在Android '
+            '5.0及以上系统中禁用上述静态广播接收器。如下所示：AndroidManifext.xmlandroid.net.conn.CONNECTIVITY_CHANGE\xa0'
+            '（Android '
+            '7已不再支持静态注册，替代方案参见官方开发文档）android.hardware.action.NEW_PICTURE\xa0'
+            '（同上）android.hardware.action.NEW_VIDEO\xa0'
+            '（同上）android.net.wifi.SCAN_RESULTS\xa0（极少使用，建议以 LocationManager '
+            '替代）android.intent.action.USER_PRESENT\xa0'
+            '（避免使用）android.intent.action.ACTION_POWER_CONNECTED\xa0（建议采用 '
+            'JobScheduler '
+            '替代）android.intent.action.ACTION_POWER_DISCONNECTED\xa0（建议采用 '
+            'JobScheduler 替代）android.intent.action.MEDIA_…\xa0'
+            '（避免使用）如需兼容旧版本Android系统，可在AndroidManifest.xml中声明所需的广播接收器，并使用版本区分的资源常量确保在Android '
+            '5.0及以上系统中禁用上述静态广播接收器。如下所示：AndroidManifext.xml<receiver\xa0...\xa0'
+            'android:enabled="@bool/until_api_21">/src/main/res/values/flags.xml<resources>\n'
+            '\xa0\xa0<bool\xa0name="until_api_21">true</bool>\n'
+            '</resources>/src/main/res/values-v21/flags.xml<resources>\n'
+            '\xa0\xa0<bool\xa0name="until_api_21">false</bool>\n'
+            '</resources>建议部分在Android 4.4以上设备中，避免使用『读取 / '
+            '写入外部存储』权限。Android设备现已普遍采用虚拟分区，内、外部存储实际上共享的是相同的物理存储位置和配额，因此不必担心存储空间内部比外部存储更容易耗尽。如果确有需要将应用的数据（或缓存）写入外部存储，则需分应用私有数据和用户个人资料（如图片、文档）两种情形分别应对。对于用户个人资料，典型的场景如用户主动发起的『保存图片』和『打开文档』这两类交互，应首选使用Android '
+            '4.4以上版本引入的存储访问机制（Storage Access '
+            'Framework），可实现用简单的API无缝对接各种本地存储介质（如TF卡、USB '
+            'OTG外置存储、NAS）及第三方云存储服务（如Dropbox、Google '
+            'Drive等），为用户提供非常灵活的存取选择。如果应用需要兼容4.4以下的Android版本，建议以如下版本限定的方式声明外部存储权限，并在旧版本系统上直接读写外部存储，兼顾Android '
+            '4.4前后版本的权限约束。<uses-permission '
+            'android:name="android.permission.WRITE_EXTERNAL_STORAGE" '
+            'android:maxSdkVersion="18" '
+            '/>对于应用私有数据，通常不建议写入外部存储，因为外部存储可被其它应用访问，存在泄漏风险。这意味着通常还需要对涉及用户隐私的数据额外加密保存。如果确有特殊原因需要将数据写入外部存储，Context.getExternalFilesDir()、\xa0'
+            'Context.getExternalCacheDir()\xa0等相关API所返回的路径从Android '
+            '4.4开始可供应用直接存取，无需任何权限。如果应用仍需兼容Android '
+            '4.4以下的系统版本，请使用前述版本限定的方式声明外部存储的读写权限。原因：外部存储通常是用户私人照片、视频的保存位置，涉及用户的敏感隐私。除文件管理类工具，应尽可能避免使用此权限。上架Google '
+            'Play应用市场Google Play应用市场（以下简称Google '
+            'Play）是Android生态中全球最大的应用分发渠道，在除中国大陆地区外发售的绝大部分Android手机中是预装的唯一应用市场。由于众所周知的因素，Google '
+            'Play在国内的Android应用分发渠道中并未获得主导地位，但这并不妨碍应用开发者应将应用上架Google '
+            'Play的重要性。将应用上架Google Play可获得如下优势：Google '
+            'Play在国内仍然具有相当数量的高端受众（粗略估算在数十万级别），他们的绝对基数虽然不算高，但在Google '
+            'Play的评论分量和影响力却很显著。Google '
+            'Play相对严格的监管相当于为应用的口碑在高端用户群体中提供了有效的背书。及早在Google '
+            'Play中抢占竞争优势，因为在Google Play上积累口碑和评价远比国内的应用市场严格和困难。Google '
+            'Play虽然目前尚未正式进入中国大陆市场，但这一可能性正在快速上升。当别的开发团队尚未觉察到这一点之前，只需投入少量的精力（增加一个分发渠道）即可换取一个潜在的高回报。Google '
+            'Play提出的要求、提供的工具和服务，可以让开发团队及早完成与国际标准的对接，降低未来国际化的门槛和阻力。\n'
+            '\t\t\t\t',
+ 'time': '17-05-15',
+ 'title': '绿色守护作者发起Android 绿色应用公约',
+ 'vnum': '1727'}
+Traceback (most recent call last):
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/xiaoyuan/Desktop/1903/14day/paowangrizi/paowangrizi/pipelines.py", line 41, in process_item
+    self.cursor.execute(sql, [item['title'], item['vnum'], item['cnum'], item['author'], item['time'],
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1364, "Field 'id' doesn't have a default value")
+2019-11-26 15:02:41 [scrapy.core.scraper] ERROR: Error processing {'author': '泡在网上的日子',
+ 'cnum': '0',
+ 'content': ' \n'
+            '\t\t\t\t\t \n'
+            '\t\t\t\t\t\t\n'
+            '\t\t\t\t\t\n'
+            '\t\t\t\t\t '
+            '据悉，雅虎财经、搜索引擎、网络广告工具和网络服务等核心业务将与威瑞森通信拥有的美国在线（AOL）旗下约50家媒体和科技品牌组成一个新的数字媒体公司Oath，由美国在线前首席执行官阿姆斯壮统领。此外，雅虎未出售给威瑞森通信的剩余资产包括阿里巴巴15%股份，日本雅虎35%股份以及部分现金、可转换股份等更名为Altaba，雅虎董事会成员麦克纳尼出任总裁。无论如何，雅虎对世界互联网的贡献，仍值得被历史铭记。1995年创立的雅虎，仅仅走过22个年头就已经到了暮年。当地时间6月13日，美国大型通信企业威瑞森通信宣布，已完成对美国互联网巨头雅虎核心业务的收购，这意味着在互联网世界闪耀了22年的雅虎正式退出舞台。据悉，雅虎财经、搜索引擎、网络广告工具和网络服务等核心业务将与威瑞森通信拥有的美国在线（AOL）旗下约50家媒体和科技品牌组成一个新的数字媒体公司Oath，由美国在线前首席执行官阿姆斯壮统领。此外，雅虎未出售给威瑞森通信的剩余资产包括阿里巴巴15%股份，日本雅虎35%股份以及部分现金、可转换股份等更名为Altaba，雅虎董事会成员麦克纳尼出任总裁。值得注意的是，据海外媒体的最新消息，根据目前阿里巴巴的最新股价，Altaba的资产价值已经高达600多亿美元。曾经“雅虎的救世主”梅耶尔带着2300万美元离职虽然在官方的收购宣告中未提及裁员，但有消息表明，和很多收购案例一样，整合进Verizon的雅虎网络业务可能会宣布超过2000人规模的裁员，相当于整个部门现有全部员工人数的15%。不过所裁员工大多为重复性工作的劳动者，工程师将不受影响。据资料显示，雅虎成立于1995年，由斯坦福大学研究生杨致远和大卫 '
+            '费洛（David Filo）创立。梅耶尔是雅虎的第五任CEO，自从2001年前华纳兄弟执行长Terry '
+            'Semel以来，她的任期最长，持续了六年。雅虎在全盛时期价值超过1000亿美元，梅耶尔曾经被誉为雅虎的救世主，在那段时间里，公司慷慨地支付了她估值超1.62亿美元的薪资和股票奖励。然而，Verizon去年7月宣布将以48.3亿美元的价格收购雅虎核心互联网资产，但由于雅虎的两起黑客入侵事件新闻曝光后，这笔交易被推迟，最终收购价格降至44.8亿美元。即便如此，据雅虎提交的监管文件显示，离开雅虎的梅耶尔将获得2300万美元的离职金，包括300万美元的现金，以及价值2000万的股权。目前，她仍然是美国收入第四高的女性高管。随着收购的完成，2012年就任雅虎首席执行官的梅耶尔将辞职，她在雅虎的5年时间里并没能拯救这家公司。梅耶尔在Tumblr上发表了一篇帖子，标题为《怀旧、感恩和乐观》。她说，“回顾我在雅虎的时光，我们面对着看似不可逾越的商业挑战，同时伴随着许多惊喜和波折。”她说，“雅虎已经成功地通过那些障碍和山峰，不仅使雅虎公司变得更好，也使我们所有人更强大。”据悉，梅耶尔的离职将获得价值超过两亿美元的雅虎股票和期权，外加价值2300万美元的“金色降落伞”（即离职补偿金）。虽然梅耶尔曾经被誉为雅虎的救世主，但她留下的或许就是雅虎看似辉煌的股价表现。在梅耶尔的领导下，雅虎公司股价飙升254%，从15美元升至53.12美元，超过了纳斯达克科技股的112%的复合增长率。公平一点来看，在梅耶尔加入雅虎的时候，她的运气可没有那么好。原因是雅虎前两任首席执行官Terry '
+            'Semel和Carol '
+            'Bartz犯下的错误已经让雅虎举步维艰。不过，梅耶尔没有注重雅虎在移动端和社交媒体方面的发展。与此同时，雅虎还被大量数据泄漏的担忧困扰着。一面是谷歌和Facebook等主要竞争对手，另一面是Instagram和Snapchat等初创公司，雅虎的核心业务受到双重挤压。梅耶尔主掌雅虎期间，雅虎比较混乱，有些人认为她辜负了自她成功从谷歌离职之后媒体对她的各种褒扬。无论如何，雅虎对世界互联网的贡献，仍值得被历史铭记。雅虎于1995年3月2日正式成立，是以网上搜索起家，是最早的互联网先驱之一，市值一度超过1000亿美元。雅虎是最早将电话黄页的信息搬到网上的公司，而且雅虎提出了两个观点，对“用户的免费”及“广告作为流量的变现渠道”对互联网意义巨大。此外，雅虎22年的历史在相当程度上影响了硅谷，许多雅虎前员工创办并成功经营着自己的公司，包括企业内部沟通协作平台Slack、智能手机即时通讯软件WhatsApp和全球最大职业社交网站领英等。——————《怀旧、感恩和乐观》全文：今天早晨，雅虎与Verizon公司之间的并购交易正式结束。这是我发给雅虎公司所有员工的一封信，以此来回顾这家公司过去的五年和整个的发展历史。*************************************************************323天前，我们宣布Verizon公司将收购雅虎的运营业务。今天，我们可以宣布这项交易正式结束。截止到这一刻，我们确实走过了一段漫长的路。这标志着雅虎时代的结束，但也标志着新篇章的开始——对我们所有人来说，这都是一个情感不能抑制的时刻。考虑到所扮演角色的内在变化，我将选择离开公司。然而，我希望你们中的每一位都知道，我的内心依旧充满了怀旧、感激和乐观。在过去的5年时间里，能够成为这支团队中的一员，是我莫大的荣誉和荣幸。我们一起重建、改造、加强和现代化我们的产品、业务和公司。回顾我在雅虎度过的时光，我们曾面临着看似不可逾越的商业挑战，以及许多令人惊讶的曲折。我看到我们的团队跨越了这些障碍和高山。我们不仅使雅虎成为一个更好的公司，而且使所有人都因此变得更加强大。在过去的5年时间里，我们建立了让用户感到开心的产品，专注于针对客户的业务，也为我们的股东创造了巨大的价值，而且还努力让雅虎成为绝对最好的工作场所。我想花点时间提醒大家，我们共同取得的一些成就，它们都很了不起，我们都应该为此而感到自豪。对我们的用户，我们已经提升了自己产品的先进功能和吸引力，特别是在手机业务领域。我们成为了全球月用户量超过10亿的三家互联网公司中的一家。通过推出和改进移动设备产品，我们每月的手机用户增加量超过6.5亿（全球用户量最大的互联网公司之一）。我们极其关注自己的产品战略，并提供了150多个规模的产品和功能。我们在搜索领域投入了大量资金，为微软、谷歌和雅虎（Yahoo）提供了一定优势，为我们的用户提供了显著的搜索改进，并吸引了部分具有一定影响力的合作伙伴，比如Mozilla公司。我们从根本上改进了雅虎邮件，完全重写了大部分基础架构，并提供了一个更加灵活可靠的系统。同时，我们还创造了一个强大的移动服务平台，移动邮件在日常用户中的使用量超过了桌面系统邮件，这也显示了我们的产品和重新开发的平台所具有的力量。我们投资于自己的主页和关键垂直业务——新闻、体育、金融和生活方式——每项业务都是用户分类搜索的首选目的地。此外，这些业务还通过雅虎App、雅虎财经、雅虎体育和雅虎Fantasy内容，在移动领域找到了新的追随者。很难相信，直到2012年，我们还没有在iOS或Android系统上运行这4个现在才有的基础应用。当时，我们还没有开发本地应用程序，而且也没有在桌面系统之外使用这些非常受欢迎的品牌。今天，我们的用户每天花费在这些产品上的时间，相当于1400年。我们通过诸如SSL、HTML5、帐户密钥和HTTPS等跨企业之间的原创技术手段，加强了自己的安全防御能力。我们致力并投资于自己架构中的卓越技术，在过去5年时间里，减少了超过一半的用户影响事件。我们也因此在2013年和2014年赢得了2个苹果设计奖项，并与富士公司建立了统一的产品设计前沿中心。致我们的广告客户：我们完全重建了自己的广告业务，把客户的需求放在了首位。我们在增长最快的数字广告领域——移动、视频、本地化和社交媒体重建了雅虎的广告技术。按照Mavens '
+            'GAAP会计准则核算，去年我们在这一领域贡献了20多亿美元的营业收入（占雅虎公司年营业收入的42%），是2012年2亿美元收入的10倍还多。而在2011年，这一领域的收入还属于空白。去年，我们在移动业务方面的年收入（按照GAAP会计准则核算）为15亿美元，成为全球最大的移动广告平台之一。我们完全依靠白手起家开创了雅虎的原生和搜索广告业务，其每年的营业收入超过10亿美元。我们收购了BrightRoll和Flurry公司，以此在我们的战略增长领域——与视频和移动业务相一致的领域，创造大量新的现金收入流。我们极大地简化了广告产品套件，改进了拍卖和交流功能，并让广告格式能够更好地为广告商服务，同时也增强了产品的设计能力。致我们的所有股东：我们的股票价格已经达到了17年以来的最高点，自2012年7月以来，股价已经比当时的价格超过三倍还多。我们在公司市值和股东价值方面已经创造了45亿美元的价值。我们的市值从180亿美元上涨到了现在的530亿美元（估值增加了350亿美元），而我们也向股东返还了近10亿美元的现金收入。我们以每股28.64美元的平均价格回购了约27%的未发行股票。如此规模的回购，无论在数量、效率还是增长方面，几乎都是史无前例的。我们通过谈判，在IPO之后又额外保留了1.22亿份阿里巴巴公司的股份。如今，与IPO时的价格相比，这些股票溢价近90亿美元。通过授权和出售非核心专利和房地产资产，我们还获得了超过8亿美元的现金收入。我们用最高效的劳动力重建了雅虎，并在十多年的时间里运作着成本最低的公司管理结构。致所有员工：我们共同努力打造了雅虎最好的企业文化。通过FYI、公司目标、PB&J和Hackdays方式，我们提升了公司的透明度、问责制度和创新能力。我们扩大了员工福利，包括提供免费食品、延长产假和陪产假的福利，并通过提供智能手机的方式来鼓励员工使用雅虎产品。我们将员工的领导能力、多元性和包容性放在优先地位，并希望借此为雅虎带来良好的回报。我们战略性地重塑了技术和销售人才队伍，其中拥有了48%的技术人员和25%的销售人员。当回顾所有取得的成就时，我要真诚地感谢每一位雅虎员工。无论是过去还是现在，无论这份贡献是巨大还是微不足道。我对所有人的辛勤工作和所付出的大量牺牲深表感激。我们总是努力为我们的用户、广告商、股东和雅虎人做正确的事情。无论合作、创新，还是坚忍不拔的表现来说，你们都是我见过的，最令人印象深刻的团队。和你们一起工作，让我在担任首席执行官的时间里感到无上的荣幸。最后，我要感谢我们的创始人费罗和杰瑞。每个企业家最疯狂的梦想，就是想用他们的想法来改变世界，而你们正是这样的企业家。从第一天开始，你们的坚韧不拔和奇思妙想，就帮助我们创造了有史以来最为特殊的互联网公司之一——雅虎。这家公司雇佣了近17.5万名员工，收入超过770亿美元，并且已经通知、连接和娱乐了全球大部分的人类。你们用自己的才华、价值和激情激励了我们所有人。我将永远敬重你们，也将会永远做你们最忠实的粉丝。Yaho-o-oo！永远的雅虎！Marissa玛丽·梅耶尔来源：http://netsmell.com/post/yahoo-45b-acquired-by.html\xa0\n'
+            '\t\t\t\t',
+ 'time': '17-06-17',
+ 'title': '从千亿市值到45亿被收购 雅虎退出历史舞台',
+ 'vnum': '2626'}
+Traceback (most recent call last):
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/xiaoyuan/Desktop/1903/14day/paowangrizi/paowangrizi/pipelines.py", line 41, in process_item
+    self.cursor.execute(sql, [item['title'], item['vnum'], item['cnum'], item['author'], item['time'],
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1364, "Field 'id' doesn't have a default value")
+2019-11-26 15:02:41 [scrapy.core.scraper] ERROR: Error processing {'author': '泡在网上的日子',
+ 'cnum': '0',
+ 'content': ' \n'
+            '\t\t\t\t\t \n'
+            '\t\t\t\t\t\t\n'
+            '\t\t\t\t\t\n'
+            '\t\t\t\t\t Android 已经是世界上第一大移动设备操作系统，但对于很多 Android '
+            '手机用户来说，他们手上的“第一大”操作系统，却并不是最新版本的，用户在抱怨得不到更新，Android 的所有者 Google '
+            '当然也在发愁。（图自：Android）根据 Google 官方最新的统计显示，截止到今年 4 月，Google 在去年 10 月同 '
+            'Google Pixel 手机一同发布的 Android Nought 操作系统的安装率只有 7% 多一点，而其最新的版本 '
+            'Android 7.1 的安装率只有可怜的 0.5%。2015 年发布的 Android 6.0 和 2014 年发布的 '
+            'Android 5.0 则拥有 31.2% 和 32 % 的占有率。（Android N 已完结，Android O将上线 '
+            '图自：google）然而，Google 近日宣布对 Android N '
+            '预览版和公开版的更新已经全部结束，所有的重点都转向对下一代系统 Android O '
+            '的开发上来，以这样的更新速度和普及率来看，有些用户可能永远都用不上新系统。不过，这个从 Android '
+            '系统一出生就伴随它的顽疾，可能会在 Android O 和未来的系统更新中得到一定程度的改善。在宣布 Android '
+            '进入下一个大更新的同时，Google 也宣布了一个名为“Project\xa0Treble” 的系统更新机制。Google 想通过 '
+            '“Project Treble” 使 Android 系统模块化，从而缩短 OEM '
+            '厂商为设备更新系统所用的时间。很多人都知道，Android 系统更新速度慢，主要是由于 Google '
+            '对其开源的支持，这使得手机厂商可以根据自家的特色深度定制操作系统，对原生 Android '
+            '改动的越多，升级新系统就越困难。（Android O 开发者预览版中的彩蛋 '
+            '图自：9to5google）不过上述的内容，只是系统更新困难的其中一个原因，这里简单的梳理一下。当 Google 发布了一个新版 '
+            'Android 系统时，芯片制造商如 Qualcom、Mediatek 等则需要时间为新系统提供驱动程序；然后手机厂商如三星，LG '
+            '等就会开始针对自家的设备定制系统，这时候会对原生 Android '
+            '的源代码作出各种调整，面目全非也是有可能的；而有些设备是通过运营商渠道售出的，这时候手机制造商还要等待运营商的批准才可以对设备进行更新。这些都使得 '
+            'Android 手机需要等待很久才能收到系统更新，只有 Google 的亲儿子才能第一时间享受到最新的系统。（Google '
+            '的亲儿子 Google Pixel 和 Nexus 手机 图自：cdnforo）而 “Project Treble” 则可以解决 '
+            'Android 系统更新中最底层的问题，也就是芯片制造商对新系统的适配问题。Google '
+            '将从新系统开发的初期就和芯片制造商合作，把由芯片制造商用于控制底层程序的“Vendor '
+            'ImplementaTIon”接口和安卓整体框架分离，并确保芯片对系统的兼容性，而在以前，OEM '
+            '厂商需要自己去和芯片制造商沟通适配定制的系统。（那个是原生 '
+            'Android？图自：fonpit）这样一来，芯片对系统的兼容问题从一开始就解决了，OEM '
+            '厂商只需要对系统的其它部分进行定制就好。此外，Google 也正在与 OEM 厂商合作，将他们所做的任何代码更改直接添加到原始的 '
+            'Android 开源项目（AOSP）代码库中，这也意味着未来在系统更新时，OEM 厂商不需要再对代码做过多的更改，因为它们已经是 '
+            'Android 的一部分。但这是否也暗示着未来不同 OEM 厂商的定制系统将会更加接近原生的 Android？Android O '
+            '就要来了，Google 也宣布“Project Treble”系统更新机制已在 Android O 上实现，Android '
+            '系统碎片化问题或许在这一次能够真正得到改善。Google I/O 2017 将于北京时间 5 月 18 '
+            '日开幕，届时爱范儿（微信号：ifanr）也将亲临现场，为大家带来最新的报道。（题图来自：androidcommunity）文章来源：http://www.ifanr.com/835683\xa0\n'
+            '\t\t\t\t',
+ 'time': '17-05-15',
+ 'title': 'Google 推出新的 Android 系统更新方案，碎片化问题有救了？',
+ 'vnum': '1602'}
+Traceback (most recent call last):
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/Users/xiaoyuan/Desktop/1903/14day/paowangrizi/paowangrizi/pipelines.py", line 41, in process_item
+    self.cursor.execute(sql, [item['title'], item['vnum'], item['cnum'], item['author'], item['time'],
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/xiaoyuan/.virtualenvs/spider/lib/python3.8/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1364, "Field 'id' doesn't have a default value")

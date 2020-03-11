@@ -1,0 +1,379 @@
+
+不管遇到资料、学习问题，还是其他问题，我们都不要慌。
+先加群：567597134。找老司机帮忙
+
+http://sc.chinaz.com/tupian/meinvtupian_4.html
+爬虫：
+数据时代
+    1、用户生产数据 --- 百度指数
+    2、政府统计的数据----政府数据
+    3、数据管理公司---聚合数据
+    4、自己爬取的数据
+数据作用
+    1、数据分析
+    2、智能产品练习数据
+    3、卖
+什么爬虫：一个能爬取web或者App的数据程序
+
+web：
+    1、每个网页都不同的URL（统一资源定位符）
+    2、一定是html、css、js构成的
+    3、每个网页都是又HTTP或者HTTPS传输的
+
+怎么爬数据：
+
+    https://www.baidu.com/s?wd=%E7%BE%8E%E5%A5%B3&pn=10
+    1、找到要爬取的目标网站、发起请求
+    2、分析URL是如何变化的和提取用URL
+    3、提取有用的数据
+
+爬虫数据能随便爬？
+
+        robots.txt协议
+        个人可以不遵守
+
+爬虫分类：
+        通用爬虫：
+                百度：竞价排名
+                百度爬虫：域名商、友情链接、自己提交
+
+        聚焦爬虫：指定网站去爬取
+
+爬虫课程：
+        1、网络库：urllib urllib2 在py3中直接用urllib.request、 requests
+        2、解析库：正则、xpath、bs4、jsonpath、selenium、charles
+        3、多任务爬虫
+        4、Scrapy框架、Scrapy-redis分布式爬虫
+
+
+HTTP
+    request
+
+    response
+        响应头
+        状态码
+        数据
+
+
+    字节---->str      decode()
+    str----->字节     encode()
+
+
+ https://tieba.baidu.com/f?kw=%E7%BE%8E%E5%A5%B3&pn=0
+ https://tieba.baidu.com/f?kw=%E7%BE%8E%E5%A5%B3&pn=50
+ https://tieba.baidu.com/f?kw=%E7%BE%8E%E5%A5%B3&pn=100
+
+面向三大特性
+        封装：
+            1、把属性或方法封装到对象中
+            2、把相同功能方法封装
+
+
+1、网页特征
+2、正则
+3、爬虫
+	
+
+
+ASCII 一个字节 8位  256
+
+GB2312 二个字节 65536
+
+GBK  包含了所有的GB2312
+
+unicode 4个字节  万国码
+
+utf-8 1-4个字节 是unicode的一个展现形式 动态编码
+
+
+在内存的数据 一般都用unicode 如果你要传输和储存一般都用utf-8
+
+
+反爬与反反爬
+
+	1、看你是不是正常的浏览器访问--->带上UI
+	2、封IP----使用代理
+	3、数据加密----只要加密的js 解密即可
+	4、动态网站--->selenium
+
+
+	数据越来越难取到
+	只要在浏览器看到的数据基本都能取下来
+
+
+	目标：只要把数据取下来就完事
+
+
+
+https://tieba.baidu.com/f?kw=%E7%BE%8E%E5%A5%B3&pn=0
+
+https://tieba.baidu.com/f?kw=%E7%BE%8E%E5%A5%B3&pn=50
+
+https://tieba.baidu.com/f?kw=%E7%BE%8E%E5%A5%B3&pn=100
+
+
+r'<a.*?rel="noreferrer".*?href="(.*?)"'
+
+------------------------------------------
+第二天
+    ajax 请求
+        1、检查--->找到请求接口
+        2、请求参数
+
+
+    ### 如果遇到不是安全的https网站，就需要忽略验证。HTTPS传输层安全协议
+    ### SSL验证  CA证书
+    ### 有些网站自己生成的证书，没经过机构验证，
+
+
+
+    静态网站：模板
+    动态网站：先模板---后加载数据
+
+
+
+
+1、拉钩https://www.lagou.com/  课堂作业
+
+2、猫眼榜单前100名  存数据库
+3、自己去找个网站，爬下来
+4、把贴吧作业一定自己写出来
+5、正则、字符串方法一定要熟悉
+
+
+-----------------------------------------------------------------------
+
+
+第三天
+	UA
+	字符串有哪些方法
+
+	正则哪有方法
+
+	面向对象封装
+
+	爬虫步骤
+
+    urllib的一些其他方法 详情见03day第03py
+
+    异常
+
+
+    代理
+
+
+    私密代理： "https": "496155678:tx4p1gbw@188.131.173.36:16816"
+    爬代理：
+        https://www.xicidaili.com/nn/2
+        存到本地，下次发起请求随机选择一个
+------------------------------------------------------
+第三天
+    1、封装到哪方面？
+    2、URL有哪部分组成
+    3、爬虫大概解题思路
+    4、正则哪有方法
+    5、简述HTTP
+
+    Cookie 最直接的提现检测用户是否登录
+
+作业：
+    1、模拟登录
+    2、把斗图拉
+
+第五天：
+    1、HTTP协议
+       HTTPS协议
+            1、确保传输内容安全
+            2、确认对方身份
+    2、Robots.txt
+
+    3、TCP和UDP
+
+    4、用urllib使用代理
+
+    5、Cookie
+
+    6、爬虫基本思路
+
+    7、面向对象 封装
+
+    requests的使用
+    xpath的使用
+
+第六天：
+
+    1、requests.text 和requests.content
+    2、说出你知道的请求头
+    3、HTTP协议
+    4、mysql事物特性
+    5、URL哪些组成
+hero = models.ForeignKey(to=Hero, on_delete=models.CASCADE)
+    蔬菜加一个功能： 爬取指定日期
+
+
+
+第七天：
+	1、队列和栈什么特点
+	2、线程和进程和协程
+	3、面向封装有什么
+
+		class Save():
+			de __init__(self):
+				self.aga  = 12
+
+			def write_file()
+				pass
+
+			def write_mysql():
+				pss	
+	4、可迭代对象、迭代器、生成器是迭代器	
+	5、死锁、互斥锁		
+
+    作业：
+        1、99作文网  解析随便
+        2、汽车之家文章（https://www.autohome.com.cn/all/3/#liststart） bs4
+        3、500万 把所有的数据爬下来、存Mysql,做一个小网站，反向生成类
+        4、根据成都七中美食字符，把对应的发微博的人 粉丝数、关注数、微博数
+        5、复习多线程
+
+第八天
+        1、线程和进程有什么区别
+        2、队列和栈有什么特点 队列是安全的
+        3、全局变量对线程共享的还是对进程不共享
+        4、GIL是什么？它对线程有什么影响
+        5、面向封装哪两个方面
+        6、数据库事务特点
+        7、Cookie有什么作用
+        8、可迭代的对象是迭代器吗？生成器是迭代器吗？
+        9、requests怎么做模拟登陆？
+        作业：
+        1、让03和输入3一样效果
+        2、用pyecharts绘制篮球的次数加上红球
+        3、如果全部发送objids 数据怎么对应
+第九天
+    1、UA---->UA池
+    2、封IP---->代理
+    3、登录网站--->加Cookie或者模拟登录
+
+    4、动态网站
+
+    作业：
+    1、斗鱼-分析-词云
+    2、豆瓣电影--->图表分析
+
+第十天：
+    Windows:
+        1、executable_path='F:\\1903\\chromedriver.exe'
+        2、配置环境变量
+
+    验证码：
+        pip install pytesseract
+        pip install pillow
+
+    滑动验证码
+        1、找到输入账号密码的输入框
+        2、填充账号密码
+        3、点击一下登录
+        4、获取整张图片和带有缺口的图片
+        5、算出移动的距离
+            1、遍历两张图片的所有像素
+            2、找到像素的x、y坐标
+            3、找到该像素RGB(196,128.127,255)
+            (19,128.127,255)
+            4、找到像素不一样的地方 就是滑动的终点
+            5、把这段距离做位移
+            6、round算出每次移动多少
+        6、找到圆按钮
+        7、按住不放 移动每次算出来
+
+    作业：
+        1、用Flask搭一个笑话网站（本周做完）、并部署到服务器上
+        2、搞定今天验证码搞定
+        3、抓紧配置redis和mongobd
+第十一天：
+    1、pip install PyExecJS
+
+    2、js破解
+
+    3、selenium其他用法
+
+    4、GIL是什么，有什么影响、多线程爬虫是否单线程爬虫要快？
+
+第十二天：
+    1、小说网站搞定 *****
+    2、Flask笑话网站、数据自己爬取 ****
+    3、李永振的那个活 *
+    4、redis和mongodb配置**一定**搞定 ***
+    5、爬取智联招聘分析一些岗位的需求 **
+    6、安装fiddler
+
+第十三天
+    结构化数据：html、css、js
+    非结构化数据 :json
+
+https://fe-api.zhaopin.com/c/i/sou?start=180&pageSize=90&cityId=530&workExperience=-1&education=-1&companyType=-1&employmentType=-1&jobWelfareTag=-1&kw=python&kt=3
+
+第十四天：
+        1、Scrapy执行流程
+        2、Scrapy创建项目、创建爬虫
+        3、Scrapy通过什么把item交给管道的
+
+        4、加载页码
+        5、插入数据
+
+第十五天：
+        1、SCrapy执行流程
+        2、并发、并行、异步、同步、阻塞、非阻塞（把理论知识背了）
+        3、Redis支持的数据结构
+        4、公司用什么代码管理工具（git和svn）
+        5、生成器是迭代器吗 、、、、
+
+
+        1、异步插入数据
+
+第十六天：
+        1、Scrapy要发起POST的得重写start_requests，用FormRequest
+        2、模拟登录跟以前写requests逻辑是一样的
+
+        3、中间件搞定
+        4、Scrapyd改成后台服务
+
+第十七天：
+        1、分布式
+
+            1、爬取过的url
+            2、爬取过的url指纹
+            3、爬取数据
+
+第十八天：
+        1、爬虫部署
+        2、手机抓包 Fiddler 青花瓷
+        3、增量爬虫
+
+            1、按时间爬的 http://www.xxx.com/20191202/article.html
+            2、按照URL的加密的值：http://www.xxx.com/111/abcdas123.htmlarticle.html
+
+            3、https://item.taobao.com/item.htm?spm=a219r.lm869.14.5.7a5a1e07lBwY4r&id=601605931847&ns=1&abbucket=8#detail
+              按照内容加密的值
+
+            baidu.com  1 5 8
+            taobao.com 1 4 8
+            iqiyi.com  1 4 7
+            toutiao.com 1 5 8
+
+            0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+            1 2 3 4 5 6 7 8
+            1 0 0 0 1 0 0 1
+            1 0 0 1 1 0 0 1
+
+
+
+            代理池
+            获取模块---->存储模块<------>检测模块
+                          |
+                          |
+                          |
+                          api
+
+自动化web工具
+https://miyakogi.github.io/pyppeteer/

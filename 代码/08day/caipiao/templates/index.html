@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form action="" method="post">
+    {% csrf_token %}
+    红球 <input type="text" name="red" value="{{ red }}"><br>
+    蓝球 <input type="text" name="blue" value="{{ blue }}"><br>
+    <input type="submit" value="提交">
+
+</form>
+<h1>中奖信息</h1>
+<ul>
+    {% if seq %}
+        {% for info in seq %}
+            <li>{{ info.red }}-{{ info.blue }}-{{ info.time }}-{{ desc }}</li>
+        {% endfor %}
+
+    {% else %}
+        <li>{{ desc }}</li>
+    {% endif %}
+
+
+</ul>
+
+
+</body>
+</html>
